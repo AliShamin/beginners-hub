@@ -1,0 +1,47 @@
+.course-detail-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-detail-box{
+    width:80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+.course-logo{
+    width:35%;
+    height: 40%;
+}
+
+.course-description {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 1rem;
+}
+.course-description > p{
+    font-size: 2rem;
+}
+
+.course-description-box > aside >ul > li{
+     margin-top: .5rem;
+}
+
+.course-description-box{
+   margin-top: 1.5rem;
+} 
+.course-description-box > p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.course-description-box > aside {
+    padding:0rem 1.5rem 1.5rem 1.5rem;
+}
