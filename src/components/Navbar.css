@@ -13,7 +13,6 @@
 .navbar-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 45px;
   max-width: 1500px;
 }
@@ -74,6 +73,21 @@
 
 .menu-icon {
   display: none;
+}
+
+.dropdown-container{
+  position: absolute;
+}
+.dropdown-container > div{
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  color: white;
+  padding:.2rem .8rem .4rem .8rem;
+}
+
+.dropdown-container > div:hover{
+  cursor: pointer;
+  background:linear-gradient(90deg, rgb(228, 227, 227) 0%, rgb(218, 161, 161) 100%); ;
+  color: black;
 }
 
 @media screen and (max-width: 960px) {
