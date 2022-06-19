@@ -1,0 +1,29 @@
+.service-offerings-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding:1rem 1rem 2rem 1rem;
+}
+
+.service-offerings-container > section{
+    width: 95%;
+    padding: 1rem;
+}
+
+.service-offerings-container > section > div > h1{
+    font-size: 1.5rem;
+}
+
+.offering-description-box{
+    margin:1rem 0rem 1rem 0rem;
+    text-align: justify;
+}
+
+.offering-description-box >h2{
+    margin:.5rem 0rem .5rem 0rem;
+}
+
+.offering-description-box >h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
