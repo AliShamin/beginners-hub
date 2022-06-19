@@ -3,8 +3,9 @@
   background: #fff;
 }
 
-h1 {
+.cards > h1 {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .cards__container {
@@ -37,7 +38,7 @@ h1 {
   border-radius: 10px;
   min-width: 20rem;
   max-width: 20rem;
-  height:20rem;
+  height: 20rem;
 }
 
 .cards__item__link {
