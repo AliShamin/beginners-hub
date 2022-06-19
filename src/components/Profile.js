@@ -30,17 +30,16 @@ function Profile() {
                     <section className="skills-section">
                         <span><b>Skills</b></span>
                         <div className="skills-container">
-                            <ul>
-                                <li>Angular</li>
-                                <li>React</li>
-                                <li>AWS</li>
-                                <li>Jenkins</li>
-                                <li>Docker</li>
-                                <li>Spring Boot</li>
-                                <li>SQL</li>
-                                <li>Node Js</li>
-                                <li>Flask</li>
-                            </ul>
+                                <span>Angular</span>
+                                <span>React</span>
+                                <span>AWS</span>
+                                <span>Jenkins</span>
+                                <span>Docker</span>
+                                <span>Spring Boot</span>
+                                <span>SQL</span>
+                                <span>Node Js</span>
+                                <span>Flask</span>
+                                <span>Spring Boot</span>
                         </div>
                     </section>
                 </div>
