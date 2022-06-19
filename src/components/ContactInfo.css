@@ -2,9 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("/public/images/img-19.jpg") center center/cover no-repeat;
+  background: url("/public/images/img-14.jpg") center center/cover no-repeat;
   color: white;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .contact-box {
@@ -17,7 +16,7 @@
 
 .contact-box > h1 {
   font-size: 4rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .contact-details-box {
   display: flex;
@@ -29,17 +28,14 @@
   filter: drop-shadow(10px 6px 20px rgba(56, 125, 255, 0.017));
 }
 
-.contact-item-container > b{
-    margin: .5rem;
-    font-size: 1.5rem;
-    font-family: "Times New Roman", Times, serif;
-
+.contact-item-container > b {
+  font-size: 1.5rem;
 }
 
-.contact-item-container > span:hover{
-    color: blue;
-    text-decoration: underline;
-    cursor: pointer;
+.contact-item-container > div> span:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 address {
@@ -52,4 +48,8 @@ address {
   display: flex;
   flex-direction: column;
   align-items: center;
-  }
+}
+
+i {
+  margin: 0.5rem;
+}
