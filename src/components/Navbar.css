@@ -29,8 +29,10 @@
 
 .navbar-logo > span{
   font-size:xx-large;
-  font-weight: bold;
-  color:crimson;
+}
+
+.navbar-logo > img{
+  margin:.5rem;
 }
 .fa-typo3 {
   margin-left: 0.5rem;

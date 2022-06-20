@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ro } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -10,11 +8,11 @@ function Navbar() {
   const [dropDown, setDropdown] = useState(false);
   const closeMobileMenu = () => setClick(false);
   const courseList = [
-    { course:"Course101",courseRoute: "/course/101"},
-    { course:"Course102",courseRoute: "/course/102"},
-    { course:"Course103",courseRoute: "/course/103"},
-    { course:"Course104",courseRoute: "/course/101"},
-    { course:"Course105",courseRoute: "/course/102"}
+    { course: "Course101", courseRoute: "/course/101" },
+    { course: "Course102", courseRoute: "/course/102" },
+    { course: "Course103", courseRoute: "/course/103" },
+    { course: "Course104", courseRoute: "/course/101" },
+    { course: "Course105", courseRoute: "/course/102" }
   ]
 
   const showButton = () => {
@@ -44,6 +42,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            <img src={"./code.png"} width="40" height="35"/>
             <span>B</span>eginners Hub
           </Link>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -75,7 +74,7 @@ function Navbar() {
                 onMouseLeave={hideDropDown}
                 onMouseEnter={showDropdown}
               >
-                {courseList.map((e) => 
+                {courseList.map((e) =>
                   <div>
                     <Link to={e.courseRoute}
                       style={{ "color": "white", "textDecoration": "none" }}
