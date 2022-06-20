@@ -1,11 +1,10 @@
 .profile-container{
-    background: url('/public/images/img-19.jpg') center center/cover no-repeat;
+    /* background: url('/public/images/img-19.jpg') center center/cover no-repeat; */
     width: 100%;
     display: flex;
     height: 100%;
     flex-direction: column;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
 }
 
@@ -26,8 +25,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
-    color:white;
+    color:black;
     padding:.5rem;
     border-radius: 10px;  
     height: 22rem;
@@ -85,8 +83,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50vh;
-    color: white;
+    height: 35vh;
+    color: black;
     justify-content: center;
     padding:2rem;
     width:80%;
@@ -98,5 +96,5 @@
 
 .headline-section > h1 > span{
     font-size: 3rem;
-    color: rgb(57, 63, 103);
+    color: crimson;
 }
