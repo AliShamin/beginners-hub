@@ -32,14 +32,18 @@
 }
 
 .profile-logo > img{
-    width:250px;
-    height:250px;
+    width:230px;
+    height:230px;
     border-radius: 50%;
 }
 
+.profile-logo-description{
+    margin-top: .5rem;
+}
+
 .profile-description{
-    width: 70%;
-    padding: 2rem;
+    width: 65%;
+    padding: 1rem;
     font-size: 1.2rem;
     text-align: justify;
     background-color: white;

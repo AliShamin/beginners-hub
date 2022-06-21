@@ -42,7 +42,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src={"./code.png"} width="40" height="35"/>
+            <img src={"./code.png"} width="35" height="30"/>
             <span>B</span>eginners Hub
           </Link>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
