@@ -19,10 +19,22 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <div>
+              <i className="fa fa-brands fa-instagram" style={{ "color": "white" }}></i>
+              <Link to='/'>Instagram</Link>
+            </div>
+            <div>
+              <i className="fa fa-brands fa-linkedin" style={{ "color": "white" }}></i>
+              <Link to='/'>LinkedIn</Link>
+            </div>
+            <div>
+              <i className="fa fa-brands fa-youtube" style={{ "color": "white" }}></i>
+              <Link to='/'>Youtube</Link>
+            </div>
+            <div>
+              <i className="fa fa-brands fa-twitter" style={{ "color": "white" }}></i>
+              <Link to='/'>Twitter</Link>
+            </div>
           </div>
         </div>
       </div>
