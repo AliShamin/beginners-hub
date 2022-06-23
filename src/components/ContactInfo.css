@@ -1,17 +1,19 @@
 .contact-container {
   display: flex;
   justify-content: center;
+  color: #242424;
+  height: 90vh;
   align-items: center;
-  background: url("/public/images/img-14.jpg") center center/cover no-repeat;
-  color: white;
+  background-color: #F4F7F5;
 }
 
 .contact-box {
   width: 80vw;
-  height: 70vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 
 .contact-box > h1 {
@@ -23,9 +25,8 @@
   flex-direction: row;
   justify-content: space-around;
   border-radius: 10px;
-  box-shadow: 10px 16px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(244, 244, 244, 0.017));
-  filter: drop-shadow(10px 6px 20px rgba(56, 125, 255, 0.017));
+  align-items: center;
+  width:90%;
 }
 
 .contact-item-container > b {

@@ -2,11 +2,12 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   padding:1rem 1rem 2rem 1rem;
+   padding:2rem;
+   color: #242424;
 }
 
 .service-offerings-container > section{
-    width: 95%;
+    width: 70%;
     padding: 1rem;
 }
 
@@ -15,8 +16,9 @@
 }
 
 .offering-description-box{
-    margin:1rem 0rem 1rem 0rem;
+    margin:2rem;
     text-align: justify;
+    font-size: 1rem;
 }
 
 .offering-description-box >h2{

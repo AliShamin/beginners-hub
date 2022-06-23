@@ -1,24 +1,27 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  height: 45px;
+  /* background: linear-gradient(70deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: sticky;
-  top: 0;
   z-index: 999;
+  color: #242424;
+  background-color: white;
+  /* border-bottom: 1px solid lightgray; */
+  box-shadow: 1px 1px 2px lightgray;
 }
 
 .navbar-container {
   display: flex;
   justify-content: center;
-  height: 45px;
-  max-width: 1500px;
+  height: 70px;
+  max-width: 1700px;
 }
 
 .navbar-logo {
-  color: #fff;
+  /* color: #fff; */
+  color:#242424;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -48,11 +51,12 @@
 }
 
 .nav-item {
-  height: 45px;
+  height: 70px;
 }
 
 .nav-links {
-  color: #fff;
+  /* color: #fff; */
+  color: #242424;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -66,7 +70,7 @@
 }
 
 .fa-bars {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .nav-links-mobile {
@@ -81,18 +85,18 @@
   position: absolute;
 }
 .dropdown-container > div{
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  color: white;
+  background: linear-gradient(70deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  /* color: white; */
   padding:.2rem .8rem .4rem .8rem;
 }
 
 .dropdown-container > div:hover{
   cursor: pointer;
-  background:linear-gradient(90deg, rgb(228, 227, 227) 0%, rgb(223, 57, 57) 100%); ;
+  background:linear-gradient(70deg, rgb(228, 227, 227) 0%, rgb(223, 57, 57) 100%); ;
   color: black;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 970px) {
   .NavbarItems {
     position: relative;
   }
@@ -101,9 +105,9 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -134,7 +138,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(25%, 70%);
   }
 
   .menu-icon {
@@ -142,7 +146,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 70%);
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -157,7 +161,7 @@
     text-align: center;
     margin: 2rem auto;
     border-radius: 4px;
-    width: 80%;
+    width: 70%;
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
@@ -170,6 +174,6 @@
   .nav-links-mobile:hover {
     background: #fff;
     color: #242424;
-    transition: 250ms;
+    transition: 270ms;
   }
 }
