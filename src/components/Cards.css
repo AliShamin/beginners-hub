@@ -1,6 +1,9 @@
 .cards {
   padding: 4rem;
   background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -10,12 +13,19 @@ h1 {
 
 .cards__container {
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
   align-items: center;
   max-width: 1120px;
   width: 90%;
-  margin: 0 auto;
   height: auto;
+}
+
+.cards__container >span {
+  padding: .5rem;
+  cursor: pointer;
+}
+.cards__container >span:hover{
+  background-color: #F4F7F5;
 }
 
 .cards__wrapper {
@@ -26,7 +36,6 @@ h1 {
   margin-bottom: 24px;
   display: flex;
   flex-direction: row;
-  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
 }
@@ -102,10 +111,20 @@ h1 {
   padding: 20px 30px 30px;
 }
 
+.cards__item__info > span{
+  color:#242424;
+}
 .cards__item__text {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
+}
+
+.cards__pagination-container{
+  width: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 @media only screen and (min-width: 1200px) {

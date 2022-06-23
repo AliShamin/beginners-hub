@@ -1,5 +1,5 @@
-{
-  "101": {
+[
+  {
     "courseTitle": "Beginners guide to Computer Architecture",
     "level": "Level1",
     "courseDescription": "This course will give you the basic overview of what are the different components computer comprises of and how they work as a single unit.",
@@ -11,9 +11,10 @@
       "Introduction to peripheral devices and I/O."
     ],
     "course_img_src": "/images/img-10.jpg",
-    "path":"/course/101"
+    "path":"/course/101",
+    "courseId":"101"
   },
-  "102": {
+  {
     "courseTitle":"Understand Computer in Binary",
     "level":"Level1",
     "courseDescription": "This course will cover the how computer performs actions in the language of Bits and Bytes",
@@ -24,9 +25,10 @@
         "Talk about the difference between Higher level language and Machine language"
     ],
     "course_img_src": "/images/img-11.jpg",
-    "path":"/course/102"
+    "path":"/course/102",
+    "courseId":"102"
   },
-  "103": {
+  {
     "courseTitle":"Computer Networks Fundamentals",
     "courseDescription": "Here we will discuss about the fundamental building blocks of Internet and different technologies that facilitates the working of World Wide Web",
     "level":"Level1",
@@ -37,9 +39,24 @@
         "Undertand the different models of networking such as OSI and TCP/IP"
     ],
     "course_img_src": "/images/img-12.jpg",
-    "path":"/course/103"  
+    "path":"/course/103",
+    "courseId":"103"  
   },
-  "104": {
+  {
+    "courseTitle":"Understand Computer in Binary",
+    "level":"Level1",
+    "courseDescription": "This course will cover the how computer performs actions in the language of Bits and Bytes",
+    "courseOutlines": [
+        "Introduction to Number System",
+        "How computer stores the information in the form of Bits and Bytes in the memory ?",
+        "Walkthrough of some Assembly Code.",
+        "Talk about the difference between Higher level language and Machine language"
+    ],
+    "course_img_src": "/images/img-11.jpg",
+    "path":"/course/104",
+    "courseId":"104"
+  },
+  {
     "courseTitle": "Beginners guide to Computer Architecture",
     "level": "Level1",
     "courseDescription": "This course will give you the basic overview of what are the different components computer comprises of and how they work as a single unit.",
@@ -51,22 +68,10 @@
       "Introduction to peripheral devices and I/O."
     ],
     "course_img_src": "/images/img-10.jpg",
-    "path":"/course/101"
+    "path":"/course/105",
+    "courseId":"105"
   },
-  "105": {
-    "courseTitle":"Understand Computer in Binary",
-    "level":"Level1",
-    "courseDescription": "This course will cover the how computer performs actions in the language of Bits and Bytes",
-    "courseOutlines": [
-        "Introduction to Number System",
-        "How computer stores the information in the form of Bits and Bytes in the memory ?",
-        "Walkthrough of some Assembly Code.",
-        "Talk about the difference between Higher level language and Machine language"
-    ],
-    "course_img_src": "/images/img-11.jpg",
-    "path":"/course/102"
-  },
-  "106": {
+  {
     "courseTitle":"Computer Networks Fundamentals",
     "courseDescription": "Here we will discuss about the fundamental building blocks of Internet and different technologies that facilitates the working of World Wide Web",
     "level":"Level1",
@@ -77,6 +82,7 @@
         "Undertand the different models of networking such as OSI and TCP/IP"
     ],
     "course_img_src": "/images/img-12.jpg",
-    "path":"/course/103"  
+    "path":"/course/106",
+    "courseId":"106" 
   }
-}
+]

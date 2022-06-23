@@ -3,6 +3,7 @@ import courseDetails from "../assets/CourseDetails.json";
 import "./CourseDetail.css";
 
 function CourseDetail(props) {
+    let courseHash = (props.id % 10 ) -1;
     return (
         <>
             <section className="course-detail-container">
@@ -14,22 +15,22 @@ function CourseDetail(props) {
                                     <img
                                         className='cards__item__img'
                                         alt='Travel Image'
-                                        src={courseDetails[props.id].course_img_src}
+                                        src={courseDetails[courseHash].course_img_src}
                                     />
                                 </figure>
                                 <div className='cards__item__info'>
-                                    <h5 className='cards__item__text'>{courseDetails[props.id].courseTitle}</h5>
+                                    <h5 className='cards__item__text'>{courseDetails[courseHash].courseTitle}</h5>
                                 </div>
                             </div>
                         </li>
                     </div>
                     <div className="course-description">
-                        <p>{courseDetails[props.id].courseTitle}</p>
+                        <p>{courseDetails[courseHash].courseTitle}</p>
                         <div className="course-description-box">
-                            <p>{courseDetails[props.id].courseDescription}</p>
+                            <p>{courseDetails[courseHash].courseDescription}</p>
                             <aside>
                                 <ul>
-                                    {courseDetails[props.id].courseOutlines.map((i) => <li key={i}>{i}</li>)}
+                                    {courseDetails[courseHash].courseOutlines.map((i) => <li key={i}>{i}</li>)}
                                 </ul>
                             </aside>
                         </div>
