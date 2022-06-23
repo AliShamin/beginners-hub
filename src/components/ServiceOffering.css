@@ -4,6 +4,7 @@
    align-items: center;
    padding:2rem;
    color: #242424;
+   background-color: #F4F7F5;
 }
 
 .service-offerings-container > section{
@@ -28,4 +29,8 @@
 .offering-description-box >h2:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+.service-offering-box{
+    background-color: white;
 }

@@ -1,14 +1,16 @@
 
 .hero-container {
   /* background: url('/public/images/img-13.jpg') center center/cover no-repeat; */
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   object-fit: contain;
-  color:black;
+  color:white;
+  /* background-color: #FFFD98; */
+  background-color: #F2FDFF;
 }
 
 .hero-container > h1 {

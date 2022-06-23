@@ -6,7 +6,7 @@ function ServiceOfferings() {
     return (
         <>
             <section className="service-offerings-container">
-                <section>
+                <section className="service-offering-box">
                     <div>
                         <h1>WHAT WE OFFER ?</h1>
                         {serviceOfferings.map((e) => (

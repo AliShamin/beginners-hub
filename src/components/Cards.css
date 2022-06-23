@@ -60,6 +60,7 @@ h1 {
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  background-color: white;
 }
 
 .cards__item__pic-wrap {
