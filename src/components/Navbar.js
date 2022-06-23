@@ -77,7 +77,7 @@ function Navbar() {
                 {courseList.map((e) =>
                   <div>
                     <Link to={e.courseRoute}
-                      style={{ "color": "white", "textDecoration": "none" }}
+                      style={{ "color": "#242424", "textDecoration": "none" }}
                     >
                       {e.course}
                     </Link>

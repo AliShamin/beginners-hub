@@ -65,12 +65,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
-  transition: all 0.2s ease-out;
-}
-
-.fa-bars {
-  /* color: #fff; */
+  background-color: #F4F7F5;
 }
 
 .nav-links-mobile {
@@ -85,8 +80,7 @@
   position: absolute;
 }
 .dropdown-container > div{
-  background: linear-gradient(70deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  /* color: white; */
+  background-color: #F4F7F5;
   padding:.2rem .8rem .4rem .8rem;
 }
 
