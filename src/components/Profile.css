@@ -19,6 +19,7 @@
     padding:1rem;
     margin:1rem;
     border-radius: 10px;
+    background-color: white;
 }
 
 .profile-logo{
@@ -44,11 +45,12 @@
 
 .profile-description{
     width: 65%;
-    padding: 1rem;
+    padding: 1.5rem;
     font-size: 1.2rem;
     text-align: justify;
     background-color: white;
     border-radius: 10px;
+    font-weight:lighter;
 }
 
 .skills-section{
@@ -87,17 +89,23 @@
 .headline-section{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: 35vh;
-    color: black;
-    justify-content: center;
+    color: #242424;
     padding:2rem;
     width:80%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2rem; 
+    text-align: right;
 }
 
 .headline-section > h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: justify;
+    font-weight: lighter;
+}
+
+.headline-section > blockquote{
+    margin-left:.5rem;
 }
 
 .headline-section > h1 > span{

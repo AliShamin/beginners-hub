@@ -4,12 +4,13 @@ import "./Profile.css";
 function Profile() {
     return (
         <section className="profile-container">
-            <section className='headline-section'>
+            <blockquote className='headline-section'>
                 <h1><span>I</span> at Beginners Hub aims to support freshers
                     transitioning from various background to the world of Internet and Computers
                     and help them build their portfolio to enter in the IT world.
                 </h1>
-            </section>
+                <blockquote>~Shamin Ali</blockquote>
+            </blockquote>
             <section className="profile-section">
                 <div className="profile-logo">
                     <img src="/images/my-profile.jpg"></img>
@@ -43,7 +44,7 @@ function Profile() {
                             <span>Spring Boot</span>
                         </div>
                     </section>
-                    </div>
+                </div>
             </section>
 
         </section>
