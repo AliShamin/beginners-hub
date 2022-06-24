@@ -33,3 +33,10 @@
   font-size: 100px;
 }
 
+.d-flex{
+  display: flex;
+}
+
+.flex-row{
+  flex-direction: row;
+}

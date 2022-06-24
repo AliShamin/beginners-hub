@@ -7,17 +7,15 @@
    background-color: #F4F7F5;
 }
 
-.service-offerings-container > section{
-    width: 70%;
-    padding: 1rem;
-}
-
-.service-offerings-container > section > div > h1{
-    font-size: 1.5rem;
+.service-offerings-container > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
 }
 
 .offering-description-box{
-    margin:2rem;
+    margin:1rem;
     text-align: justify;
     font-size: 1rem;
 }
@@ -31,6 +29,35 @@
     cursor: pointer;
 }
 
-.service-offering-box{
+.service-offering-content-container{
     background-color: white;
+    width:75%;
+    border:.1rem solid lightgray;
 }
+
+.service-offerings-nav-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:25%;
+    height: 80vh;
+}
+
+.service-offerings-nav-box{
+    width:90%;
+    border-bottom: .1rem solid lightgray;
+    padding-bottom: 1rem;
+}
+
+.service-offerings-nav-box > div{
+   padding:.6rem;
+   font-size: small;
+   display: flex;
+   align-items: center;
+}
+
+.service-offerings-nav-box > div:hover{
+    background-color: #e7e9e8;
+    border-radius: 10px;
+    cursor: pointer;
+} 
