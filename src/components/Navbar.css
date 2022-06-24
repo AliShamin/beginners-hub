@@ -65,6 +65,7 @@
 
 .nav-links:hover {
   background-color: #F4F7F5;
+  border-bottom: .1rem solid lightgray;
 }
 
 .nav-links-mobile {

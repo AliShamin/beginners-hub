@@ -23,6 +23,7 @@ h1 {
 .cards__container >span {
   padding: .5rem;
   cursor: pointer;
+  border-radius: 10px;
 }
 .cards__container >span:hover{
   background-color: #F4F7F5;
