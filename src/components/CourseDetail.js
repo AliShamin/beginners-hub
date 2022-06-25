@@ -1,6 +1,6 @@
 import React from "react";
 import courseDetails from "../assets/CourseDetails.json";
-import "./CourseDetail.css";
+import "../core/styles/CourseDetail.css";
 
 function CourseDetail(props) {
     let courseHash = (props.id % 10 ) -1;

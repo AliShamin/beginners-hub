@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Cards.css';
+import '../core/styles/Cards.css';
 import CardItem from './CardItem';
 import courseDetails from "../assets/CourseDetails.json";
 

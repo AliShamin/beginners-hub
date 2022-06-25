@@ -1,5 +1,5 @@
 import React from "react";
-import "./ContactInfo.css";
+import "../core/styles/ContactInfo.css";
 
 function ContactInfo() {
     return (

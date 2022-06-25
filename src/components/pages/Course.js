@@ -4,12 +4,7 @@ import CourseDetail from "../CourseDetail";
 import Footer from "../Footer";
 
 function Course() {
-
-    let { id } = useParams();
-    useEffect(()=>{
-        window.scrollTo(0, 0)
-    },[])
-    
+    let { id } = useParams(); 
     return (
         <>
             <CourseDetail id={id} />

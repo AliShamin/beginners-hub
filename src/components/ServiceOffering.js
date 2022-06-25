@@ -1,8 +1,8 @@
 import React from "react";
-import serviceOfferings from "../assets/ServiceOfferings.json";
-import "./ServiceOffering.css";
+import serviceOfferings from "../assets/TrainingDetails.json";
+import "../core/styles/ServiceOffering.css";
 
-function ServiceOfferings() {
+function TrainingDetails() {
     return (
         <>
             <section className="service-offerings-container">
@@ -42,4 +42,4 @@ function ServiceOfferings() {
     );
 }
 
-export default ServiceOfferings;
+export default TrainingDetails;

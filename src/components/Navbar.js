@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import '../core/styles/Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
