@@ -1,12 +1,12 @@
 import React, {useEffect} from 'react';
 import '../../App.css';
 import Footer from "../Footer";
-import TrainingDetails from '../ServiceOffering';
+import TrainingSection from '../TrainingSection';
 
 export default function Training() {
    return (
     <>
-      <TrainingDetails />
+      <TrainingSection />
       <Footer />
     </>);
 }
