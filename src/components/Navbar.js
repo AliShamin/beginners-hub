@@ -42,15 +42,9 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src={"./code.png"} width="35" height="30"/>
-            <span>B</span>eginners Hub
+            beg<span>;</span>nnershub
           </Link>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
             <li className='nav-item'>
               <Link
                 to='/about'

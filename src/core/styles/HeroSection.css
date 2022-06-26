@@ -1,6 +1,6 @@
 
 .hero-container {
-  /* background: url('/public/images/img-13.jpg') center center/cover no-repeat; */
+  background: url('/public/images/img-20.jpg') center center/cover no-repeat;
   height: 90vh;
   width: 100%;
   display: flex;
@@ -10,18 +10,18 @@
   object-fit: contain;
   color:white;
   /* background-color: #FFFD98; */
-  background-color: #F2FDFF;
+  background-color: white;
 }
 
 .hero-container > h1 {
-  font-size: 80px;
-  margin-top: -100px;
-  color: #242424
+  font-size: 60px;
+  color: #242424;
+  color: white;
 }
 
 .hero-container > p {
   margin-top: 8px;
-  font-size: 32px;
+  font-size: 24px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
   color:#242424;  

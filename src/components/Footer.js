@@ -42,11 +42,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              Beginners Hub
+            © beg;nnershub
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>BgHub © 2022</small>
+          <small class='website-rights'>BHub 2022</small>
         </div>
       </section>
     </div>

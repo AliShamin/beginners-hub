@@ -6,8 +6,7 @@
     flex-direction: column;
     align-items: center;
     object-fit: contain;
-    /* background-color: #F4F7F5; */
-    background-color: white;
+    background-color: #F4F7F5;
 }
 
 .profile-section{
@@ -20,7 +19,6 @@
     padding:1rem;
     margin:1rem;
     border-radius: 10px;
-    background-color: white;
 }
 
 .profile-logo{
@@ -49,7 +47,6 @@
     padding: 1.5rem;
     font-size: 1.2rem;
     text-align: justify;
-    background-color: white;
     border-radius: 10px;
     font-weight:lighter;
 }
@@ -93,7 +90,6 @@
     color: #242424;
     padding:2rem;
     width:80%;
-    background-color: white;
     border-radius: 10px;
     margin-top: 2rem; 
     text-align: right;
@@ -111,5 +107,5 @@
 
 .headline-section > h1 > span{
     font-size: 3rem;
-    color: crimson;
+    color: #3B44F6;
 }

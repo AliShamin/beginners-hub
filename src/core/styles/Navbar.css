@@ -1,6 +1,6 @@
 .navbar {
   /* background: linear-gradient(70deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
-  height: 70px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,12 +9,14 @@
   color: #242424;
   background-color: white;
   border-bottom: 1px solid lightgray;
+  position: sticky;
+  top: 0;
 }
 
 .navbar-container {
   display: flex;
   justify-content: center;
-  height: 70px;
+  height: 60px;
   max-width: 1700px;
 }
 
@@ -25,13 +27,16 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 1.5rem;
+  font-weight: bolder;
   display: flex;
   align-items: center;
 }
 
 .navbar-logo > span{
-  font-size:xx-large;
-}
+  font-size: 2rem;
+  color: #3B44F6;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
 
 .navbar-logo > img{
   margin:.5rem;
@@ -50,7 +55,7 @@
 }
 
 .nav-item {
-  height: 70px;
+  height: 60px;
 }
 
 .nav-links {
@@ -86,11 +91,11 @@
 
 .dropdown-container > div:hover{
   cursor: pointer;
-  background:linear-gradient(70deg, rgb(228, 227, 227) 0%, rgb(223, 57, 57) 100%); ;
+  background:linear-gradient(70deg, rgb(228, 227, 227) 0%, #3B44F6 100%); ;
   color: black;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
   }
@@ -101,7 +106,7 @@
     width: 100%;
     height: 70vh;
     position: absolute;
-    top: 70px;
+    top: 60px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
