@@ -2,28 +2,23 @@
 .hero-container {
   background: url('/public/images/img-20.jpg') center center/cover no-repeat;
   height: 90vh;
-  width: 100%;
   display: flex;
+  z-index: -1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   object-fit: contain;
   color:white;
-  /* background-color: #FFFD98; */
-  background-color: white;
 }
 
 .hero-container > h1 {
   font-size: 60px;
-  color: #242424;
   color: white;
 }
 
 .hero-container > p {
   margin-top: 8px;
   font-size: 24px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
   color:#242424;  
 }
 

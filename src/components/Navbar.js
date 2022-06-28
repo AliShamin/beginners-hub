@@ -1,12 +1,17 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import '../core/styles/Navbar.css';
 
+const STYLES = ["navbar", "navbar position-sticky"];
+
 function Navbar() {
+  const location = useLocation();
   const [click, setClick] = useState(false);
+  const [navBarStyle, setNavbarStyle] = useState(STYLES[0])
   const [button, setButton] = useState(true);
   const [dropDown, setDropdown] = useState(false);
   const closeMobileMenu = () => setClick(false);
+
   const courseList = [
     { course: "Course101", courseRoute: "/course/101" },
     { course: "Course102", courseRoute: "/course/102" },
@@ -14,6 +19,21 @@ function Navbar() {
     { course: "Course104", courseRoute: "/course/101" },
     { course: "Course105", courseRoute: "/course/102" }
   ]
+
+  const handleScroll = () => {
+    /**
+     * We want navbar css to position sticky for all the route except for home page
+     */
+    if (window.location.pathname == '/') {
+      if (window.scrollY > 590) {
+        setNavbarStyle(STYLES[1]);
+      } else {
+        setNavbarStyle(STYLES[0]);
+      }
+    }else{
+      setNavbarStyle(STYLES[1]);
+    }
+  };
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -33,13 +53,17 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
+    document.addEventListener("scroll", handleScroll);
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   window.addEventListener('resize', showButton);
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className={navBarStyle}>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             beg<span>;</span>nnershub

@@ -27,14 +27,14 @@
     justify-content: space-around;
     align-items: center;
     color:black;
-    padding:.5rem;
+    padding:1rem;
     border-radius: 10px;  
     height: 22rem;
 }
 
 .profile-logo > img{
-    width:230px;
-    height:230px;
+    width:200px;
+    height:200px;
     border-radius: 50%;
 }
 
@@ -44,11 +44,10 @@
 
 .profile-description{
     width: 65%;
-    padding: 1.5rem;
-    font-size: 1.2rem;
+    padding: 1rem;
+    font-size: 1rem;
     text-align: justify;
     border-radius: 10px;
-    font-weight:lighter;
 }
 
 .skills-section{
@@ -85,6 +84,7 @@
 }
 
 .headline-section{
+
     display: flex;
     flex-direction: column;
     color: #242424;

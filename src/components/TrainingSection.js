@@ -13,7 +13,7 @@ function TrainingSection() {
                         <div className="service-offerings-nav-box">
                             {trainingDetails.map((e) => (
                                 <div className="d-flex flex-row">
-                                    <i class={e.offeringIcon}></i>
+                                    <i className={e.offeringIcon}></i>
                                     <Link to={"/training/"+e['offerTitle']}>
                                         {e['offerTitle']}
                                     </Link>
