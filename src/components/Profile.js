@@ -4,6 +4,9 @@ import "../core/styles/Profile.css";
 function Profile() {
     return (
         <section className="profile-container">
+            <section className="profile-title-section">
+                <p>About Me</p> 
+            </section>
             <blockquote className='headline-section'>
                 <h1><span>I</span> at Beginners Hub aims to support freshers
                     transitioning from various background to the world of Internet and Computers
@@ -16,13 +19,13 @@ function Profile() {
                     <img src="/images/my-profile.jpg"></img>
                     <div className="profile-logo-description">
                         <h3>Shamin Ali</h3>
-                        <p>Software Developer</p>
+                        <p>Full Stack Engineer</p>
                         <p>Online Instructor @Beginners Hub</p>
                         <p>BE, SGSITS Indore'19</p>
                     </div>
                 </div>
                 <div className="profile-description">
-                    <p>My name is Shamin Ali, I am a Software Developer with demonstrated history of working with frontend, backend and cloud domain. Skilled in Spring Boot, Angular, Node Js, React and various cloud technologies such as AWS and GCP.
+                    <p>I am a Software Developer with demonstrated history of working with frontend, backend and cloud domain. Skilled in Spring Boot, Angular, Node Js, React and various cloud technologies such as AWS and GCP.
                         Have good experience working with micro service based architectures.
                         Designed fault tolerant and resilient systems.
                         Hands-on experience in building CICD pipelines.

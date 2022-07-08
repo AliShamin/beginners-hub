@@ -5,6 +5,7 @@
     height: 100%;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     object-fit: contain;
     background-color: #F4F7F5;
 }
@@ -84,14 +85,12 @@
 }
 
 .headline-section{
-
     display: flex;
     flex-direction: column;
     color: #242424;
-    padding:2rem;
+    padding:0rem 2rem 0rem 2rem;
     width:80%;
     border-radius: 10px;
-    margin-top: 2rem; 
     text-align: right;
 }
 
@@ -108,4 +107,18 @@
 .headline-section > h1 > span{
     font-size: 3rem;
     color: #3B44F6;
+}
+
+.profile-title-section{
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
 }

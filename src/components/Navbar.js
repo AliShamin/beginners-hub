@@ -13,11 +13,11 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const courseList = [
-    { course: "Course101", courseRoute: "/course/101" },
-    { course: "Course102", courseRoute: "/course/102" },
-    { course: "Course103", courseRoute: "/course/103" },
-    { course: "Course104", courseRoute: "/course/101" },
-    { course: "Course105", courseRoute: "/course/102" }
+    { course: "Course 101", courseRoute: "/course/101" },
+    { course: "Course 102", courseRoute: "/course/102" },
+    { course: "Course 103", courseRoute: "/course/103" },
+    { course: "Course 104", courseRoute: "/course/101" },
+    { course: "Course 105", courseRoute: "/course/102" }
   ]
 
   const handleScroll = () => {
