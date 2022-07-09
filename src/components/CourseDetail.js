@@ -2,6 +2,8 @@ import React from "react";
 import courseDetails from "../assets/CourseDetails.json";
 import "../core/styles/CourseDetail.css";
 
+const bHUbSession101Url ="https://forms.gle/njuNybEJXFTNmwfe8";
+
 function CourseDetail(props) {
     let courseHash = (props.id % 10 ) -1;
     return (
@@ -34,6 +36,7 @@ function CourseDetail(props) {
                                 </ul>
                             </aside>
                         </div>
+                        <button><a href={bHUbSession101Url} target="/">Enroll</a></button>
                     </div>
                 </div>
             </section>
