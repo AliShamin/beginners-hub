@@ -1,0 +1,24 @@
+.about-me-container{
+    display: flex;
+    justify-content: center;
+}
+.about-me-box{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1rem;
+}
+
+.about-me-profile-logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.about-me-profile-logo-container>img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}

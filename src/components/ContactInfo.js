@@ -6,7 +6,7 @@ function ContactInfo() {
         <>
             <section className="contact-container">
                 <div className="contact-box">
-                    <h1>Contact Us</h1>
+                    <h1>Contact Me</h1>
                     <div className="contact-details-box">
                         <div className="contact-item-container">
                             <i className="fa fa-solid fa-globe" style={{ fontSize: 40 }}></i>

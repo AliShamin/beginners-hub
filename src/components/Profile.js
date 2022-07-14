@@ -44,7 +44,6 @@ function Profile() {
                             <span>SQL</span>
                             <span>Node Js</span>
                             <span>Flask</span>
-                            <span>Spring Boot</span>
                         </div>
                     </section>
                 </div>

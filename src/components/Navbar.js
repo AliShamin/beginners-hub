@@ -79,15 +79,14 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/about'
+              <a
                 className='nav-links'
                 onClick={closeMobileMenu}
                 onMouseEnter={showDropdown}
                 onMouseLeave={hideDropDown}
               >
                 Courses
-              </Link>
+              </a>
               {dropDown && <div className="dropdown-container"
                 onMouseLeave={hideDropDown}
                 onMouseEnter={showDropdown}

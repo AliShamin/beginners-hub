@@ -1,12 +1,11 @@
 import React, {useEffect} from 'react';
 import '../../App.css';
-import Profile from "../Profile";
 import Footer from "../Footer";
-
+import AboutMe from '../AboutMe';
 function About(){
     return (
         <>
-        <Profile/>
+        <AboutMe/>
         <Footer/>
         </>
     );
