@@ -1,0 +1,83 @@
+.training-offerings-container{
+   display: flex;
+   color: #242424;
+   justify-content: center;
+}
+
+.training-offerings-container > div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.offering-description-box{
+    margin:0rem 1rem 1rem 1rem;
+    font-size: 1rem;
+}
+
+.offering-description-box > img{
+    width: 80%;
+    height: 20rem;
+    margin:1rem 0rem 1rem 0rem;
+}
+
+.offering-description-box >h2{
+    margin:0rem 0rem .5rem 0rem;
+}
+
+.offering-description-box >h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.training-offering-content-container{
+    padding:1.5rem 3rem 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.training-session-topics{
+    letter-spacing: 0.5px;
+}
+
+.training-offerings-nav-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    border-right: 0.1rem solid lightgray;
+}
+
+.training-offerings-nav-box{
+    max-width: 14rem;
+    min-width: 14rem;;
+}
+
+.training-offerings-nav-box > div{
+    padding:.4rem;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px; 
+    font-weight: 600;
+}
+
+.training-offerings-nav-box > div:hover{
+    background-color: #e7e9e8;
+    cursor: pointer;
+} 
+
+.training-nav-hide-button{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin: 0rem 1rem 0rem 0rem;
+    font-size:1.5rem;
+}
+
+.training-nav-hide-button> i:hover{
+    cursor: pointer;
+}
