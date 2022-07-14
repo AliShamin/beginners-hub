@@ -7,6 +7,7 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Course from './components/pages/Course';
 import TrainingDetails from './components/TrainingDetails';
+import SocialMediaWidget from './components/SocialMediaWidget';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path=':id' element={<TrainingDetails />} />
           </Route>
         </Routes>
+        <SocialMediaWidget/> 
       </Router>
     </>
   );
