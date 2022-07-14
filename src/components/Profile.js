@@ -5,14 +5,13 @@ function Profile() {
     return (
         <section className="profile-container">
             <section className="profile-title-section">
-                <p>About Me</p> 
+                <p>Our Goal</p> 
             </section>
             <blockquote className='headline-section'>
-                <h1><span>I</span> at Beginners Hub aims to support freshers
+                <p>Beginners Hub aims to support freshers
                     transitioning from various background to the world of Internet and Computers
                     and help them build their portfolio to enter in the IT world.
-                </h1>
-                <blockquote>~Shamin Ali</blockquote>
+                </p>
             </blockquote>
             <section className="profile-section">
                 <div className="profile-logo">
@@ -20,7 +19,7 @@ function Profile() {
                     <div className="profile-logo-description">
                         <h3>Shamin Ali</h3>
                         <p>Full Stack Engineer</p>
-                        <p>Online Instructor @Beginners Hub</p>
+                        <p>Instructor @Beginners Hub</p>
                         <p>BE, SGSITS Indore'19</p>
                     </div>
                 </div>

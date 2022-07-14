@@ -15,7 +15,7 @@
     flex-direction: row;
     justify-content: space-around;
     height:auto;
-    width:80%;
+    width:60%;
     color: black;
     padding:1rem;
     margin:1rem;
@@ -89,24 +89,10 @@
     flex-direction: column;
     color: #242424;
     padding:0rem 2rem 0rem 2rem;
-    width:80%;
+    width:60%;
     border-radius: 10px;
-    text-align: right;
-}
-
-.headline-section > h1{
-    font-size: 1.5rem;
-    text-align: justify;
-    font-weight: lighter;
-}
-
-.headline-section > blockquote{
-    margin-left:.5rem;
-}
-
-.headline-section > h1 > span{
-    font-size: 3rem;
-    color: #3B44F6;
+    text-align: left;
+     text-align: justify;
 }
 
 .profile-title-section{
