@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../core/styles/Navbar.css';
 
-const STYLES = ["navbar", "navbar position-sticky"];
+const STYLES = ["navbar", "navbar position-sticky nav-shadow-and-color","navbar nav-shadow-and-color position-fixed"];
 
 function Navbar() {
   const location = useLocation();
@@ -29,8 +29,8 @@ function Navbar() {
      * We want navbar css to position sticky for all the route except for home page
      */
     if (window.location.pathname == '/') {
-      if (window.scrollY > 660) {
-        setNavbarStyle(STYLES[1]);
+      if (window.scrollY > 600) {
+        setNavbarStyle(STYLES[2]);
       } else {
         setNavbarStyle(STYLES[0]);
       }
