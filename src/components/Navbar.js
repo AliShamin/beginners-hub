@@ -20,12 +20,16 @@ function Navbar() {
     { course: "Course 105", courseRoute: "/course/102" }
   ]
 
+  useEffect(() => {
+    handleScroll();
+  }, [location]);
+
   const handleScroll = () => {
     /**
      * We want navbar css to position sticky for all the route except for home page
      */
     if (window.location.pathname == '/') {
-      if (window.scrollY > 590) {
+      if (window.scrollY > 660) {
         setNavbarStyle(STYLES[1]);
       } else {
         setNavbarStyle(STYLES[0]);

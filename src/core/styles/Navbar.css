@@ -5,10 +5,12 @@
   align-items: center;
   font-size: 1rem;
   color: #242424;
-  background-color: white;
-  border-bottom: 1px solid lightgray;
-  box-shadow: 0 5px 20px -10px #000;
+  /* background-color: white; */
+  /* border-bottom: 1px solid lightgray;
+  box-shadow: 0 5px 20px -10px #000; */
   z-index: 999;
+  position: absolute;
+  width: 100%;
 }
 
 .navbar-container {
@@ -103,6 +105,9 @@
 .position-sticky {
   position: sticky;
   top: 0;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  box-shadow: 0 5px 20px -10px #000;
 }
 
 @media screen and (max-width: 960px) {
