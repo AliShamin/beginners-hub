@@ -8,7 +8,7 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
+            <h4>About Us</h4>
             <Link to='/about'>About</Link>
             <Link to='/contact'>Contacts</Link>
             <Link to='/'>Privacy Policy</Link>
@@ -17,7 +17,7 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
+            <h4>Social Media</h4>
             <div>
               <i className="fa fa-brands fa-instagram" style={{ "color": "white" }}></i>
               <Link to='/'>Instagram</Link>
