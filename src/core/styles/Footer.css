@@ -66,12 +66,11 @@
   box-sizing: border-box;
 }
 
-.footer-link-items h4{
+.footer-link-items h2 {
   margin-bottom: 16px;
-  text-transform:uppercase;
 }
 
-.footer-link-items > h4 {
+.footer-link-items > h2 {
   color: #fff;
 }
 
