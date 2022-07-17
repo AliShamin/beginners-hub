@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
-import '../../App.css';
-import Footer from "../Footer";
-import TrainingSection from '../TrainingSection';
+import '../App.css';
+import Footer from "../components/Footer";
+import TrainingSection from '../components/TrainingSection';
 
 export default function Training() {
    return (

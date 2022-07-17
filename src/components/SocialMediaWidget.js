@@ -1,8 +1,9 @@
-import { React } from "react";
+import React  from "react";
 import "../core/styles/SocialMediaWidget.css";
 
 function SocialMediaWidget() {
     return (
+        <>
         <div className="social-media-widget-container">
                 <a href='https://www.linkedin.com/in/shamin-ali/' target="/">
                     <i className="fa fa-brands fa-linkedin" style={{ "color": "grey" }}></i>
@@ -14,6 +15,7 @@ function SocialMediaWidget() {
                     <i className="fa fa-brands fa-instagram" style={{ "color": "grey" }}></i>
                 </a>
         </div>
+        </> 
     )
 }
 export default SocialMediaWidget;
