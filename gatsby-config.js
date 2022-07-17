@@ -11,12 +11,5 @@
           name: 'assets',
           path: `${__dirname}/static/`,
         },
-     },
-     {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'content',
-        path: `${__dirname}/content/`,
-      },
      }],
 }
