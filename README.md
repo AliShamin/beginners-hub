@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Deploy to github pages
+
+Set remote url `git remote set-url origin https://github.com/AliShamin/alishamin.github.io.git`
+run command  `npm run-script deploy`
+Once the code is published we can again reset the github remote to our development repo using below command
+`git remote set-url origin https://github.com/AliShamin/beginners-hub.git`
