@@ -5,7 +5,7 @@ function Profile() {
     return (
         <section className="profile-container">
             <section className="profile-title-section">
-                <p>Our Goal</p> 
+                <p>Goal</p> 
             </section>
             <blockquote className='headline-section'>
                 <p>Beginners Hub aims to support freshers
@@ -47,7 +47,6 @@ function Profile() {
                     </section>
                 </div>
             </section>
-
         </section>
     );
 }
