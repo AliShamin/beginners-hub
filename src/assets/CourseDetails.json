@@ -15,14 +15,16 @@
     "courseId":"101"
   },
   {
-    "courseTitle":"Understand Computer in Binary",
+    "courseTitle":"Operating Systems Fundamentals",
     "level":"Level1",
-    "courseDescription": "This course will cover the how computer performs actions in the language of Bits and Bytes",
+    "courseDescription": "This course will give you the basic understanding of Operating Systems and thier importance in Computer Science",
     "courseOutlines": [
-        "Introduction to Number System",
-        "How computer stores the information in the form of Bits and Bytes in the memory ?",
-        "Walkthrough of some Assembly Code.",
-        "Talk about the difference between Higher level language and Machine language"
+        "What are Operating Systems ?",
+        "Different types of Operating Systems",
+        "Understand Concurrency and Multi Processing",
+        "Understand Process and Inter Process Communication",
+        "Deadlock and how to handle different deadlock situations",
+        "File System Basics"
     ],
     "course_img_src": "/images/img-11.jpg",
     "path":"/course/102",
@@ -41,48 +43,5 @@
     "course_img_src": "/images/img-12.jpg",
     "path":"/course/103",
     "courseId":"103"  
-  },
-  {
-    "courseTitle":"Understand Computer in Binary",
-    "level":"Level1",
-    "courseDescription": "This course will cover the how computer performs actions in the language of Bits and Bytes",
-    "courseOutlines": [
-        "Introduction to Number System",
-        "How computer stores the information in the form of Bits and Bytes in the memory ?",
-        "Walkthrough of some Assembly Code.",
-        "Talk about the difference between Higher level language and Machine language"
-    ],
-    "course_img_src": "/images/img-11.jpg",
-    "path":"/course/104",
-    "courseId":"104"
-  },
-  {
-    "courseTitle": "Beginners guide to Computer Architecture",
-    "level": "Level1",
-    "courseDescription": "This course will give you the basic overview of what are the different components computer comprises of and how they work as a single unit.",
-    "courseOutlines": [
-      "Introduction to Computer Architecture",
-      "Getting familiar with CPU and its components",
-      "Understand the difference between RAM and ROM",
-      "What are different kinds of storage options available ?",
-      "Introduction to peripheral devices and I/O."
-    ],
-    "course_img_src": "/images/img-10.jpg",
-    "path":"/course/105",
-    "courseId":"105"
-  },
-  {
-    "courseTitle":"Computer Networks Fundamentals",
-    "courseDescription": "Here we will discuss about the fundamental building blocks of Internet and different technologies that facilitates the working of World Wide Web",
-    "level":"Level1",
-    "courseOutlines": [
-        "Basics of Digital Communication",
-        "Understand the basics of networking",
-        "Walkthrough of differen network topologies",
-        "Undertand the different models of networking such as OSI and TCP/IP"
-    ],
-    "course_img_src": "/images/img-12.jpg",
-    "path":"/course/106",
-    "courseId":"106" 
   }
 ]
