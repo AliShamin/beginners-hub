@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../core/styles/Navbar.css';
+import { getCourseList } from '../core/services/CourseService';
 
-const STYLES = ["navbar", "navbar position-sticky nav-shadow-and-color","navbar nav-shadow-and-color position-fixed"];
+const STYLES = ["navbar", "navbar position-sticky nav-shadow-and-color", "navbar nav-shadow-and-color position-fixed"];
 
 function Navbar() {
   const location = useLocation();
@@ -11,14 +12,7 @@ function Navbar() {
   const [button, setButton] = useState(true);
   const [dropDown, setDropdown] = useState(false);
   const closeMobileMenu = () => setClick(false);
-
-  const courseList = [
-    { course: "Course 101", courseRoute: "/course/101" },
-    { course: "Course 102", courseRoute: "/course/102" },
-    { course: "Course 103", courseRoute: "/course/103" },
-    { course: "Course 104", courseRoute: "/course/101" },
-    { course: "Course 105", courseRoute: "/course/102" }
-  ]
+  const courseList = getCourseList();
 
   useEffect(() => {
     handleScroll();
@@ -34,7 +28,7 @@ function Navbar() {
       } else {
         setNavbarStyle(STYLES[0]);
       }
-    }else{
+    } else {
       setNavbarStyle(STYLES[1]);
     }
   };
@@ -96,13 +90,16 @@ function Navbar() {
                 onMouseEnter={showDropdown}
               >
                 {courseList.map((e) =>
-                  <div>
-                    <Link to={e.courseRoute}
-                      style={{ "color": "#242424", "textDecoration": "none" }}
-                    >
-                      {e.course}
-                    </Link>
-                  </div>
+                  <Link to={e.courseRoute}
+                    style={{ "color": "#242424", "textDecoration": "none" }}
+                  >
+                    <div className="dropdown-container-item">
+                      <div>
+                        <h3>{e.courseId}</h3>
+                        <span>{e.courseTitle}</span>
+                      </div>
+                    </div>
+                  </Link>
                 )
                 }
               </div>
