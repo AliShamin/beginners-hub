@@ -30,18 +30,14 @@
     color:black;
     padding:1rem;
     border-radius: 10px;  
-    height: 22rem;
 }
 
 .profile-logo > img{
-    width:200px;
-    height:200px;
+    width:180px;
+    height:180px;
     border-radius: 50%;
 }
 
-.profile-logo-description{
-    margin-top: .5rem;
-}
 
 .profile-description{
     width: 65%;
