@@ -23,18 +23,16 @@ function AboutMe() {
                     <p>
                         Based on my skills and the experience that I got in the past years in the field of software engineering, I would want to help freshers coming from different backgrounds who know nothing about IT and are hesitant towards switching. I could be a good person in guiding and supporting them.
                     </p>
-                    <br/>
+                    <br />
                     <div className="single-line"></div>
-                    <section className="skills-section">
-                        <span><b>I love doing</b></span>
-                        <div className="skills-container">
-                            <span>Frontend</span>
-                            <span>Backend</span>
-                            <span>Cloud</span>
-                            <span>CICD</span>
-                            <span>Automation</span>
-                        </div>
-                    </section>
+                    <span><b>I love doing</b></span>
+                    <div className="skills-container">
+                        <span>Frontend</span>
+                        <span>Backend</span>
+                        <span>Cloud</span>
+                        <span>CICD</span>
+                        <span>Automation</span>
+                    </div>
                     <div className="single-line"></div>
                     <h2>Motivation</h2>
                     <p>
