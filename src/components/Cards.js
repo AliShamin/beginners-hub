@@ -5,50 +5,35 @@ import courseDetails from "../assets/CourseDetails.json";
 
 function Cards() {
 
-  let [startOfset, setStartOfset] = useState(0);
-  let [endOfset, setEndOfset] = useState(3);
   const [showCardsScroll, setShowCardsScroll] = useState(false);
   const courseLength = courseDetails.length;
-
   useEffect(() => {
+    document.querySelector(".cards__items");
     if (courseDetails.length > 3) {
       setShowCardsScroll(true)
     }
-  },[])
+  }, [])
 
+  
   const moveCards = (direction) => {
-
     if (direction === "forward") {
-      if (endOfset == courseLength) {
-        return;
-      } else if (endOfset < courseLength) {
-        setEndOfset(++endOfset);
-        setStartOfset(++startOfset);
-      }
+      document.querySelector(".cards__items").scrollLeft +=350; 
     }
     else if (direction === "backward") {
-      if (startOfset == 0) {
-        return;
-      }
-      setEndOfset(--endOfset);
-      setStartOfset(--startOfset);
+      document.querySelector(".cards__items").scrollLeft -=350; 
     }
   }
 
   const getCardItems = (startOfset, endOfset) => {
     let cardItems = [];
-    console.log("startOfset",startOfset);
-    console.log("endofset",endOfset);
     for (let x = startOfset; x < endOfset; x++) {
-      if (x < courseDetails.length) {
-        cardItems.push(<CardItem
-          src={courseDetails[x].course_img_src}
-          text={courseDetails[x].courseTitle}
-          label={courseDetails[x].level}
-          path={courseDetails[x].path}
-          courseId={courseDetails[x].courseId}
-        />)
-      }
+      cardItems.push(<CardItem
+        src={courseDetails[x].course_img_src}
+        text={courseDetails[x].courseTitle}
+        label={courseDetails[x].level}
+        path={courseDetails[x].path}
+        courseId={courseDetails[x].courseId}
+      />)
     }
     return cardItems;
   }
@@ -63,7 +48,7 @@ function Cards() {
         }
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            {getCardItems(startOfset, endOfset)}
+            {getCardItems(0, courseLength)}
           </ul>
         </div>
         {showCardsScroll && <span onClick={() => { moveCards("forward") }}>

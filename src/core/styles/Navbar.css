@@ -1,3 +1,9 @@
+:root {
+  --purple: #7131B5;
+  --white: #ffffff;
+  --light-black: #242424;
+}
+
 .navbar {
   height: 60px;
   display: flex;
@@ -5,9 +11,6 @@
   align-items: center;
   font-size: 1rem;
   color: #242424;
-  /* background-color: white; */
-  /* border-bottom: 1px solid lightgray;
-  box-shadow: 0 5px 20px -10px #000; */
   z-index: 999;
   position: absolute;
   width: 100%;
@@ -36,7 +39,7 @@
 
 .navbar-logo > span {
   font-size: 2rem;
-  color: #7131B5;
+  color: var(--purple);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -108,7 +111,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0.2rem .6rem 0.2rem .6rem;
-  border-left: 0.2rem solid #7131B5;
+  border-left: 0.2rem solid var(--purple);
 }
 
 .dropdown-container-item > div > span{

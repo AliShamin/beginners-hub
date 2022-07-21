@@ -25,6 +25,17 @@ function AboutMe() {
                     </p>
                     <br/>
                     <div className="single-line"></div>
+                    <section className="skills-section">
+                        <span><b>I love doing</b></span>
+                        <div className="skills-container">
+                            <span>Frontend</span>
+                            <span>Backend</span>
+                            <span>Cloud</span>
+                            <span>CICD</span>
+                            <span>Automation</span>
+                        </div>
+                    </section>
+                    <div className="single-line"></div>
                     <h2>Motivation</h2>
                     <p>
                         I saw that most engineers coming from different engineering background wanted to switch their career into IT. Many of them do not have the basic understanding of computer fundamentals and the knowledge of underlying infrastructure under which the whole Internet is operating.

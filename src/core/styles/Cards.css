@@ -32,14 +32,24 @@ h1 {
 
 .cards__wrapper {
   margin-top: 0.5rem;
+  max-width: 96%;
 }
 
 .cards__items {
   margin-bottom: 24px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scroll-behavior: smooth;
+}
+
+.cards__items::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
 }
 
 .cards__item {
@@ -50,6 +60,7 @@ h1 {
   max-width: 20rem;
   height: 20rem;
 }
+
 
 .cards__item__link {
   display: flex;
