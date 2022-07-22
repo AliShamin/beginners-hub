@@ -18,39 +18,33 @@
 .course-logo{
     width:35%;
     height: 40%;
+    margin: .6rem;
 }
 
 .course-description {
-    width: 65%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 1rem;
-    padding:1rem;
+    padding-top: 1rem;
 }
 
-.course-description > button {
+.enroll-btn {
     padding:0.5rem 1rem 0.5rem 1rem;
     font-size: large;
-    background-color: #7131B5;
-    color: white;
+    background-color: #f4f7f5;
+    color: black;
     border: none;
     cursor: pointer;
     width:fit-content;
-}
-
-.course-description > button:hover{
-    background-color: #492074;
-} 
-.course-description > button > a{
-    color: white;
+    margin:1rem 1rem 1rem 0rem;
     letter-spacing: 2px;
     text-decoration: none;
 }
 
-.course-description > p{
-    font-size: 2rem;
-}
+.enroll-btn:hover{
+    background-color: #d9dedb;
+} 
 
 .course-description-box > aside >ul > li{
      margin-top: .5rem;
@@ -59,10 +53,6 @@
 .course-description-box{
    margin-top: 1.5rem;
 } 
-.course-description-box > p {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
 
 .course-description-box > aside {
     padding:0rem 1.5rem 1.5rem 1.5rem;

@@ -8,6 +8,7 @@ import Contact from "./components/pages/Contact";
 import Course from './components/pages/Course';
 import TrainingDetails from './components/TrainingDetails';
 import SocialMediaWidget from './components/SocialMediaWidget';
+import ViewCourseContent from './components/ViewCourseContent';
 
 function App() {
   return (
@@ -19,11 +20,12 @@ function App() {
           <Route path='/about' exact element={<About />} />
           <Route path='/contact' exact element={<Contact />} />
           <Route path='/course/:id' exact element={<Course />} />
+          <Route path='/view/:id' exact element={<ViewCourseContent />} />
           <Route path='/training' exact element={<Training />} >
             <Route path=':id' element={<TrainingDetails />} />
           </Route>
         </Routes>
-        <SocialMediaWidget/> 
+        <SocialMediaWidget />
       </Router>
     </>
   );

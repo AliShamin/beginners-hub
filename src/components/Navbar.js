@@ -13,10 +13,11 @@ function Navbar() {
   const [dropDown, setDropdown] = useState(false);
   const closeMobileMenu = () => setClick(false);
   const courseList = getCourseList();
+  const [hideNavBar,setHideNavBar] = useState(false);
 
   useEffect(() => {
     handleScroll();
-  }, [location]);
+}, [location]);
 
   const handleScroll = () => {
     /**
@@ -135,6 +136,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
+     
     </>
   );
 }
