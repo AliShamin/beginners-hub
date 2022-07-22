@@ -40,16 +40,16 @@ function TrainingSection() {
                             {trainingDetails.map((u, i) => (
                                 <>
                                     <div onClick={() => { unhideSubCourse(i) }}>
-                                        {!unhidedCourse[i] && <i class="fa fa-solid fa-angle-right"></i>}
-                                        {unhidedCourse[i] && <i class="fa fa-solid fa-angle-down"></i>}
                                         {u.title}
+                                        {!unhidedCourse[i] && <i class="fa fa-solid fa-angle-down"></i>}
+                                        {unhidedCourse[i] && <i class="fa fa-solid fa-angle-up"></i>}
                                     </div>
                                     {u.subCourses.map((v, j) =>
                                         <>{unhidedCourse[i] &&
                                             <div className="d-flex flex-row">
-                                                <i className={v.offeringIcon}></i>
-                                                <div className="training-session-topics" onClick={() => { routeTo("/training/" + v.offerTitle, i, j) }}>
-                                                    {v.offerTitle}
+                                                <div className="training-session-topics d-flex flex-row" onClick={() => { routeTo("/training/" + v.offerTitle, i, j) }}>
+                                                   <i className={v.offeringIcon}></i>
+                                                    <div>{v.offerTitle}</div>
                                                 </div>
                                             </div>
                                         }

@@ -41,6 +41,12 @@
 
 .training-session-topics{
     letter-spacing: 0.5px;
+    padding:.2rem;
+}
+
+.training-session-topics:hover{
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .training-offerings-nav-container{
@@ -53,23 +59,32 @@
 }
 
 .training-offerings-nav-box{
-    max-width: 14rem;
-    min-width: 14rem;;
+    max-width: 15rem;
+    min-width: 15rem;
+    cursor: pointer;
 }
 
 .training-offerings-nav-box > div{
-    padding:.4rem;
-    font-size: small;
+    padding:.5rem .8rem .5rem .8rem;
+    font-size: 14px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     letter-spacing: 0.5px; 
-    font-weight: 600;
+    font-weight: 500;
+    border-bottom: 1px solid #ececec;
+    line-height: 1.5;
 }
 
-.training-offerings-nav-box > div:hover{
+.training-offerings-nav-box > div >i{
+    font-size: 1.4rem;
+}
+
+/* .training-offerings-nav-box > div:hover{
     background-color: #e7e9e8;
     cursor: pointer;
-} 
+    font-weight: bold;
+}  */
 
 .training-nav-hide-button{
     width: 100%;
