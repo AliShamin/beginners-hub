@@ -11,7 +11,7 @@ function SocialMediaWidget() {
                     <i className="fa fa-brands fa-twitter" style={{ "color": "grey" }}></i>
                 </a>
                 <a href='/'>
-                    <i className="fa fa-brands fa-instagram" style={{ "color": "grey" }}></i>
+                    <i className="fa fa-brands fa-facebook" style={{ "color": "grey" }}></i>
                 </a>
         </div>
     )

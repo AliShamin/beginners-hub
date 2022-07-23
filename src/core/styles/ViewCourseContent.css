@@ -20,7 +20,7 @@
 
 .register-course-box{
     width: 30%;
-    padding:1rem;
+    padding:1rem 1.5rem;
     overflow-y: scroll;
     height: 90vh;
 }

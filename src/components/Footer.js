@@ -10,37 +10,21 @@ function Footer() {
           <div class='footer-link-items'>
             <h4>About Us</h4>
             <Link to='/about'>About</Link>
-            <Link to='/contact'>Contacts</Link>
-            <Link to='/'>Privacy Policy</Link>
-            <Link to='/'>Terms And Conditions</Link>
+            <Link to='/contact'>Contact Me</Link>
+            <Link to='/'>Privacy and Terms</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h4>Social Media</h4>
-            <div>
-              <i className="fa fa-brands fa-instagram" style={{ "color": "white" }}></i>
-              <Link to='/'>Instagram</Link>
+            <h4>Portfolio</h4>
+              <Link to='/'>Online Classes</Link>
+              <Link to='/'>Training</Link>
+              <Link to='/'>Blogs</Link>
             </div>
-            <div>
-              <i className="fa fa-brands fa-linkedin" style={{ "color": "white" }}></i>
-              <Link to='/'>LinkedIn</Link>
-            </div>
-            <div>
-              <i className="fa fa-brands fa-youtube" style={{ "color": "white" }}></i>
-              <Link to='/'>Youtube</Link>
-            </div>
-            <div>
-              <i className="fa fa-brands fa-twitter" style={{ "color": "white" }}></i>
-              <Link to='/'>Twitter</Link>
-            </div>
-          </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <small class='website-rights'>© BHub 2022</small>
-        </div>
+      <section className="footer-rights-wrap">
+          <span>© BHub 2022</span>
       </section>
     </div>
   );

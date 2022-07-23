@@ -27,6 +27,5 @@
 .single-line{
   width: 100%;
   height: 1px;
-  background-color: lightgray;
-  margin:1rem;
+  background-color: #ececec;
 }

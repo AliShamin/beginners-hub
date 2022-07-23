@@ -4,3 +4,8 @@
     left: 0;
     margin:.5rem;
 }
+
+.social-media-widget-container > a >i{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
