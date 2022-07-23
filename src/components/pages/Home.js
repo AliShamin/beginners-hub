@@ -4,6 +4,7 @@ import Cards from '../Cards';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import Profile from '../Profile';
+import WhatIOffer from '../WhatIOffer';
 
 function Home() {
 
@@ -15,6 +16,7 @@ function Home() {
     <>
       <HeroSection />
       <Profile />
+      <WhatIOffer/>
       <Cards />
       <Footer />
     </>
