@@ -9,11 +9,11 @@ function Navbar() {
   const location = useLocation();
   const [click, setClick] = useState(false);
   const [navBarStyle, setNavbarStyle] = useState(STYLES[0])
-  const [button, setButton] = useState(true);
   const [dropDown, setDropdown] = useState(false);
   const closeMobileMenu = () => setClick(false);
   const courseList = getCourseList();
   const [hideNavBar,setHideNavBar] = useState(false);
+  const handleClick = () => setClick(!click);
 
   useEffect(() => {
     handleScroll();
@@ -34,14 +34,6 @@ function Navbar() {
     }
   };
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
   const showDropdown = () => {
     setDropdown(true);
   }
@@ -51,14 +43,12 @@ function Navbar() {
   }
 
   useEffect(() => {
-    showButton();
     document.addEventListener("scroll", handleScroll);
     return () => {
       document.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
-  window.addEventListener('resize', showButton);
 
   return (
     <>
@@ -67,6 +57,9 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             beg<span>;</span>nnershub
           </Link>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fa fas fa-times' : 'fa fas fa-bars'} />
+          </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link

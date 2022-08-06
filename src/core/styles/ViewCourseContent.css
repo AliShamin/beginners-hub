@@ -25,3 +25,21 @@
     height: 90vh;
 }
 
+@media screen and (max-width: 960px) {
+    .course-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-container > iframe{
+        width: 100%;
+    }
+
+    .register-course-box{
+        width: 70%;
+        overflow: hidden;
+    }
+
+}
+
+

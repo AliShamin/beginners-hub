@@ -42,3 +42,11 @@
 .whatioffer-card-title{
     margin-bottom: 1.5rem;
 }
+
+@media screen and (max-width: 960px) {
+
+    .whatioffer-box{
+        flex-direction: column;
+    }
+
+}
