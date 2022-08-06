@@ -32,6 +32,19 @@
 .enroll-btn {
     padding:0.5rem 1rem 0.5rem 1rem;
     font-size: large;
+    background-color: var(--purple);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width:fit-content;
+    margin:1rem 1rem 1rem 0rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.view-btn{
+    padding:0.5rem 1rem 0.5rem 1rem;
+    font-size: large;
     background-color: #f4f7f5;
     color: black;
     border: none;
@@ -41,10 +54,6 @@
     letter-spacing: 2px;
     text-decoration: none;
 }
-
-.enroll-btn:hover{
-    background-color: #d9dedb;
-} 
 
 .course-description-box > aside >ul > li{
      margin-top: .5rem;
@@ -56,4 +65,7 @@
 
 .course-description-box > aside {
     padding:0rem 1.5rem 1.5rem 1.5rem;
+}
+
+enroll-btn{
 }

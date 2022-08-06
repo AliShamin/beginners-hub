@@ -39,7 +39,7 @@ function CourseDetail(props) {
                         </div>
                         <div>
                             <a className="enroll-btn" href={bHUbSession101Url} target="/">Enroll</a>
-                            <Link className="enroll-btn" to={`/view/${props.id}`}>View</Link>
+                            <Link className="view-btn" to={`/view/${props.id}`}>View</Link>
                         </div>
                     </div>
                 </div>
