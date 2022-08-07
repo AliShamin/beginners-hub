@@ -141,6 +141,9 @@ h1 {
 
 
 @media screen and (max-width: 960px) {
+  .cards{
+    padding: 4rem 0rem;
+  }
   .cards__items {
     display: flex;
     flex-direction: column;
@@ -148,6 +151,9 @@ h1 {
   }
   .sliding_control{
     display: none;
+  }
+  .cards__wrapper{
+    max-width: 100%;
   }
 }
 

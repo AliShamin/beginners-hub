@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "../core/styles/ViewCourseContent.css";
 import courseDetails from "../assets/CourseDetails.json";
 import { useParams } from "react-router-dom";
@@ -8,6 +8,10 @@ const bHUbSession101Url = "https://forms.gle/njuNybEJXFTNmwfe8";
 function ViewCourseContent() {
     let { id } = useParams();
     let courseHash = (id % 10) - 1;
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (<>
         <div className="course-content-wraper">

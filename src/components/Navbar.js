@@ -71,15 +71,16 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <a
+              <Link
+                to='/courses'
                 className='nav-links'
                 onClick={closeMobileMenu}
                 onMouseEnter={showDropdown}
                 onMouseLeave={hideDropDown}
               >
                 Courses
-              </a>
-              {dropDown && <div className="dropdown-container"
+              </Link>
+              {/* {dropDown && <div className="dropdown-container"
                 onMouseLeave={hideDropDown}
                 onMouseEnter={showDropdown}
               >
@@ -97,7 +98,7 @@ function Navbar() {
                 )
                 }
               </div>
-              }
+              } */}
             </li>
             <li className='nav-item'>
               <Link

@@ -13,7 +13,7 @@ function Cards() {
       setShowCardsScroll(true)
     }
   }, [])
-
+  
   
   const moveCards = (direction) => {
     if (direction === "forward") {
