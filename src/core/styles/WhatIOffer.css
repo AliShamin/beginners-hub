@@ -48,6 +48,7 @@
 
     .whatioffer-box{
         flex-direction: column;
+        font-size: large;
     }
 
 }

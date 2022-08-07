@@ -101,6 +101,7 @@
 @media screen and (max-width:960px) {
     .offering-description-box{
         width:96%;
+        font-size: large;
     }
     .training-offering-content-container{
         padding: 1.5rem 0rem 0.5rem;
