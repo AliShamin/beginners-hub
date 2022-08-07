@@ -84,9 +84,10 @@ i {
 @media screen and (max-width:960px){
   .contact-query-post-container{
     flex-direction: column;
-    width:70%;
+    width:96%;
   }
   .contact-item-container{
     flex-direction: column;
+    width:96%;
   }
 }

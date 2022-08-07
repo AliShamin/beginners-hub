@@ -36,7 +36,6 @@ h1 {
 }
 
 .cards__items {
-  margin-bottom: 24px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -145,6 +144,7 @@ h1 {
   .cards__items {
     display: flex;
     flex-direction: column;
+    overflow:visible;
   }
   .sliding_control{
     display: none;

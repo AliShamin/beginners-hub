@@ -22,7 +22,6 @@
     width: 30%;
     padding:1rem 1.5rem;
     overflow-y: scroll;
-    height: 90vh;
 }
 
 @media screen and (max-width: 960px) {
@@ -36,7 +35,7 @@
     }
 
     .register-course-box{
-        width: 70%;
+        width: 96%;
         overflow: hidden;
     }
 

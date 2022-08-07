@@ -14,18 +14,18 @@ function ContactInfo() {
                     <h1>Contact Me</h1>
                     <div className="contact-details-box">
                         <div className="contact-item-container">
-                            <span>
+                            <div>
                                 <i className="fa fa-solid fa-globe" style={{ fontSize: 20 }}></i>
                                 Bangalore, India
-                            </span>
-                            <span>
+                            </div>
+                            <div>
                                 <i className="fa fa-solid fa-phone" style={{ fontSize: 20 }}></i>
                                 +919981872935
-                            </span>
-                            <span>
+                            </div>
+                            <div>
                                 <i className="fa fa-solid fa-envelope" style={{ fontSize: 20 }}></i>
                                 shaminali14@gmail.com
-                            </span>
+                            </div>
                         </div>
                     </div>
                 </div>
