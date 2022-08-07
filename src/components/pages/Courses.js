@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import courseDetails from "../../assets/CourseDetails.json";
 import CardItem from "../CardItem";
 import "../../core/styles/Courses.css";
@@ -7,6 +7,10 @@ import Footer from "../Footer";
 
 function Courses() {
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+    
     const getCards = () => {
         let cardItems = [];
         courseDetails.forEach(element => {

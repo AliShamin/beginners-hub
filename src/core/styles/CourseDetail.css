@@ -68,5 +68,9 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .course-description{
+        font-size: large;
+    }
 }
 
