@@ -7,6 +7,14 @@
   letter-spacing: -.003em;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
+
 .sign-up {
   background-image: url('/public/images/img-8.jpg');
   background-position: center;
