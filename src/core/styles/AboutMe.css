@@ -48,3 +48,10 @@
     border-radius: 50%;
 }
 
+@media screen and (max-width:960px) {
+
+  .about-me-box{
+    text-align: center;
+    width:90%;
+  } 
+}

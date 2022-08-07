@@ -10,7 +10,7 @@
 }
 
 .hero-container > h1 {
-  font-size: 3rem;
+  font-size: 48px;
   font-weight: 300;
   letter-spacing: 5px;
   line-height: 1.2;
@@ -21,7 +21,7 @@
 }
 
 .hero-container > p {
-  font-size: .75rem;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 3.5px;
   line-height: 1.5;
@@ -34,6 +34,14 @@
 
 
 @media screen and (max-width: 960px) {
+  .hero-container > h1{
+    font-size: 32px;
+  }
+
+  .hero-container > p {
+    font-size: 8px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {

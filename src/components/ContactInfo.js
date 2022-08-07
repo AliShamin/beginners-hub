@@ -20,10 +20,12 @@ function ContactInfo() {
                             </span>
                             <span>
                                 <i className="fa fa-solid fa-phone" style={{ fontSize: 20 }}></i>
-                                +919981872935</span>
-                                <span>
+                                +919981872935
+                            </span>
+                            <span>
                                 <i className="fa fa-solid fa-envelope" style={{ fontSize: 20 }}></i>
-                                shaminali14@gmail.com</span>
+                                shaminali14@gmail.com
+                            </span>
                         </div>
                     </div>
                 </div>

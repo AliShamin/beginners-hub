@@ -140,9 +140,14 @@ h1 {
   justify-content: space-around;
 }
 
+
 @media screen and (max-width: 960px) {
   .cards__items {
     display: flex;
+    flex-direction: column;
+  }
+  .sliding_control{
+    display: none;
   }
 }
 

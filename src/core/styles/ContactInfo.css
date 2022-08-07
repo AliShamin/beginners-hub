@@ -49,7 +49,7 @@ address {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
+  width: 70%;
   border: .1rem solid lightgray;
   border-radius: 5px;
 }
@@ -66,15 +66,27 @@ i {
   align-items: center;
   width: 50%;
   padding:1rem;
+  text-align: center;
 }
 
 .contact-query-post-container > a{
   background-color: #7131B5;
   padding:.5rem .8rem .5rem .8rem;
+  margin:1rem 0rem;
   color: white;
   text-decoration: none;
   font-size: larger;
   text-align: center;
   border-radius: 5px;
   letter-spacing: 2px;
+}
+
+@media screen and (max-width:960px){
+  .contact-query-post-container{
+    flex-direction: column;
+    width:70%;
+  }
+  .contact-item-container{
+    flex-direction: column;
+  }
 }

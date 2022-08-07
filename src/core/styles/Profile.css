@@ -115,10 +115,12 @@
 
     .headline-section {
         text-align: center;
+        width:90%;
     }
 
     .profile-description{
-        text-align: center;     
+        text-align: center;    
+        width:90%; 
     }
 
     .profile-section{
