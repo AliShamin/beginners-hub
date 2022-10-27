@@ -2,6 +2,7 @@ import React from "react";
 import BlogSearchBar from "../BlogSearchBar";
 import Posts from "../Posts";
 import "../../core/styles/Blogs.css";
+
 function Blogs() {
     return (
         <>
