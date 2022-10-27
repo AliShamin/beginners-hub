@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import Training from './components/pages/Training';
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
+import Blogs from './components/pages/Blogs';
 import Course from './components/pages/Course';
 import TrainingDetails from './components/TrainingDetails';
 import SocialMediaWidget from './components/SocialMediaWidget';
@@ -20,6 +21,7 @@ function App() {
           <Route path='/' exact element={<Home />} />
           <Route path='/about' exact element={<About />} />
           <Route path='/contact' exact element={<Contact />} />
+          <Route path='/blogs' exact element={<Blogs />} />
           <Route path='/courses' exact element={<Courses/>}/>
           <Route path='/course/:id' exact element={<Course />} />
           <Route path='/view/:id' exact element={<ViewCourseContent />} />

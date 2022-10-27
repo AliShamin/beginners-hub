@@ -100,7 +100,7 @@ function Navbar() {
               </div>
               } */}
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link
                 to='/training'
                 className='nav-links'
@@ -108,16 +108,16 @@ function Navbar() {
               >
                 Training
               </Link>
-            </li>
-            {/* <li className='nav-item'>
+            </li> */}
+            <li className='nav-item'>
               <Link
-                to='/services'
+                to='/blogs'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Blog
               </Link>
-            </li> */}
+            </li>
             <li className='nav-item'>
               <Link
                 to='/contact'
