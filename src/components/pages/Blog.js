@@ -1,14 +1,13 @@
 import React from "react";
-import { useParams } from "react-router-dom"
+import BlogPost from "../BlogPost";
+import "../../core/styles/Blogs.css";
+const Blog = () => {
 
-function Blog(){
-    let { id } = useParams(); 
-
-    return (
-    <>
-    Heres my Blog page with id {id}
-    </>
-);
+  return (
+    <div className="blog-post-container">
+      <BlogPost />
+    </div>
+  )
 }
 
-export default Blog;
+export default Blog

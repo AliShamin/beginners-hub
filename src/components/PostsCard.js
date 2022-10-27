@@ -2,10 +2,10 @@ import React from "react";
 import postDetails from "../assets/PostDetails.json";
 import { Link } from 'react-router-dom';
 import "../core/styles/Post.css";
-function Posts() {
+function PostsCard() {
     let posts = [];
     postDetails.map(e => {
-        posts.push(Post(e))
+        posts.push(PostCardItem(e))
     })
     return (
         <>
@@ -15,7 +15,7 @@ function Posts() {
         </>)
 }
 
-function Post(postDetail) {
+function PostCardItem(postDetail) {
     let path = `/blog/${postDetail.postId}`;
     return (
         <>
@@ -36,4 +36,4 @@ function Post(postDetail) {
     );
 }
 
-export default Posts;
+export default PostsCard;

@@ -1,6 +1,6 @@
 import React from "react";
 import BlogSearchBar from "../BlogSearchBar";
-import Posts from "../Posts";
+import PostsCard from "../PostsCard";
 import "../../core/styles/Blogs.css";
 
 function Blogs() {
@@ -10,7 +10,7 @@ function Blogs() {
                 <BlogSearchBar />
             </div>
             <div>
-                <Posts/>
+                <PostsCard/>
             </div>
         </>
     );

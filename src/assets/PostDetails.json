@@ -1,15 +1,15 @@
 [{
     "title":"Lets do some frontend using HTML and CSS",
-    "postId":"00001",
+    "postId":"1",
     "author":"Shamin Ali"
 },
 {
     "title":"Getting around with the classic microservice based architecture",
-    "postId":"00002",
+    "postId":"2",
     "author":"Shamin Ali"
 },
 {
     "title":"Why you should learn about the cloud technologies ?",
-    "postId":"00003",
+    "postId":"3",
     "author":"Shamin Ali"
 }]
