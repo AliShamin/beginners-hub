@@ -9,9 +9,9 @@ function PostsCard() {
     })
     return (
         <>
-            <div className="post-container-wrapper">
-                {posts}
-            </div>
+                <div className="post-container-wrapper">
+                    {posts}
+                </div>
         </>)
 }
 
@@ -20,7 +20,7 @@ function PostCardItem(postDetail) {
     return (
         <>
             <></>
-            <Link to={path} style={{textDecoration: 'none'}} >
+            <Link to={path} style={{ textDecoration: 'none' }} >
                 <div className="post-container">
                     <div className="post-container-box">
                         <div className="post-container-box-header">

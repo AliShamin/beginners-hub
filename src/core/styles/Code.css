@@ -20,3 +20,18 @@
     padding: 10px;
     cursor: pointer;
   }
+
+  
+  a {
+    color: var(--primary-color);
+    font-weight: 500;
+  }
+  
+  code {
+    color: var(--second-color);
+    background-color: rgba(137, 221, 255, 0.3);
+  }
+  
+  .dark-mode-icon {
+    cursor: pointer;
+  }

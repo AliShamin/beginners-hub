@@ -6,7 +6,20 @@
 
 .article-wrapper {
   padding: 2rem;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  font-size: 1.1rem;
+}
+
+.article-wrapper h1 {
+    font-size: 2.1rem;
+    text-align: left;
+}
+
+.article-wrapper blockquote {
+  background: #f4f7f5;
+  border-left: 10px solid var(--primary-color);
+  margin: 1.5em 10px;
+  padding: 1em 10px .1em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
 }
 
 .article__cover img {
@@ -18,8 +31,11 @@
   margin: auto;
   margin-bottom: 3rem;
   margin-top: 1.5rem;
-  background-color: var(--background-content);
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   border-radius: 3px;
 }
+.blog-items-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

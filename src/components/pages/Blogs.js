@@ -9,7 +9,7 @@ function Blogs() {
             <div className="blog-search-container">
                 <BlogSearchBar />
             </div>
-            <div>
+            <div className="blog-items-container">
                 <PostsCard/>
             </div>
         </>

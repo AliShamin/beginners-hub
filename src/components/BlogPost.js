@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import Markdown from "markdown-to-jsx"
 import Code from "./Code";
-import cover from '../assets/img/cover.jpeg'
 import { useParams } from "react-router-dom";
 import "../core/styles/Blogs.css";
 
@@ -22,14 +21,14 @@ const BlogPost = () => {
   return (
     <div className="article-wrapper">
       <article>
-        <header>
+        {/* <header>
           <div className="article__cover">
             <img
               src={cover}
               alt="my-cover"
             />
           </div>
-        </header>
+        </header> */}
         <main>
           <Markdown
             options={{

@@ -1,15 +1,18 @@
 [{
-    "title":"Lets do some frontend using HTML and CSS",
+    "title":"Build React App using Node, Webpack and Babel",
     "postId":"1",
-    "author":"Shamin Ali"
+    "author":"Shamin Ali",
+    "imgUrl":"https://miro.medium.com/max/720/1*MhPvRNsjw50MQ7pU5jFUpw.png"
 },
 {
     "title":"Getting around with the classic microservice based architecture",
     "postId":"2",
-    "author":"Shamin Ali"
+    "author":"Shamin Ali",
+    "imgUrl":"https://miro.medium.com/max/720/1*MhPvRNsjw50MQ7pU5jFUpw.png"
 },
 {
     "title":"Why you should learn about the cloud technologies ?",
     "postId":"3",
-    "author":"Shamin Ali"
+    "author":"Shamin Ali",
+    "imgUrl":"https://miro.medium.com/max/720/1*MhPvRNsjw50MQ7pU5jFUpw.png"
 }]

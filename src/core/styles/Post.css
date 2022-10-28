@@ -10,10 +10,8 @@
 
 .post-container-wrapper{
    display: flex;
-   flex-direction:row;
    flex-wrap: wrap;
    justify-content:center;
-
 }
 
 .post-container-box{
