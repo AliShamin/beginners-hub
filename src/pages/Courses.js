@@ -1,8 +1,8 @@
 import React,{useEffect} from "react";
-import courseDetails from "../../assets/CourseDetails.json";
-import CardItem from "../CardItem";
-import "../../core/styles/Courses.css";
-import Footer from "../Footer";
+import courseDetails from "../assets/CourseDetails.json";
+import CardItem from "../components/CardItem";
+import "../core/styles/Courses.css";
+import Footer from "../components/Footer";
 
 
 function Courses() {

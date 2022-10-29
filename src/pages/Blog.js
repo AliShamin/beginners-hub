@@ -1,6 +1,6 @@
 import React from "react";
-import BlogPost from "../BlogPost";
-import "../../core/styles/Blogs.css";
+import BlogPost from "../components/BlogPost.js"
+import "../core/styles/Blogs.css";
 const Blog = () => {
 
   return (

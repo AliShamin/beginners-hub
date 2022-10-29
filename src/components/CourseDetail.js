@@ -1,7 +1,7 @@
 import React from "react";
 import courseDetails from "../assets/CourseDetails.json";
-import "../core/styles/CourseDetail.css";
 import { Link} from "react-router-dom";
+import "../core/styles/CourseDetail.css";
 const bHUbSession101Url = "https://forms.gle/njuNybEJXFTNmwfe8";
 
 function CourseDetail(props) {

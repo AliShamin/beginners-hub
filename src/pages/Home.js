@@ -1,10 +1,9 @@
 import React, {useEffect} from 'react';
-import '../../App.css';
-import Cards from '../Cards';
-import HeroSection from '../HeroSection';
-import Footer from '../Footer';
-import Profile from '../Profile';
-import WhatIOffer from '../WhatIOffer';
+import Cards from '../components/Cards';
+import HeroSection from '../components/HeroSection';
+import Footer from '../components/Footer';
+import Profile from '../components/Profile';
+import WhatIOffer from '../components/WhatIOffer';
 
 function Home() {
 

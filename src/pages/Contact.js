@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
-import Footer from "../Footer";
-import ContactInfo from '../ContactInfo';
+import Footer from "../components/Footer";
+import ContactInfo from '../components/ContactInfo';
 
 function Contact() {
     useEffect(() => {

@@ -1,17 +1,17 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from './components/pages/Home';
-import Training from './components/pages/Training';
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
-import Blogs from './components/pages/Blogs';
-import Blog from './components/pages/Blog';
-import Course from './components/pages/Course';
+import Home from './pages/Home';
+import Training from './pages/Training';
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Blogs from './pages/Blogs';
+import Blog from './pages/Blog';
+import Course from './pages/Course';
 import TrainingDetails from './components/TrainingDetails';
 import SocialMediaWidget from './components/SocialMediaWidget';
 import ViewCourseContent from './components/ViewCourseContent';
-import Courses from './components/pages/Courses';
+import Courses from './pages/Courses';
 
 function App() {
   return (

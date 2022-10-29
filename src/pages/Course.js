@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import { useParams } from "react-router-dom"
-import CourseDetail from "../CourseDetail";
-import Footer from "../Footer";
+import CourseDetail from "../components/CourseDetail";
+import Footer from "../components/Footer";
 
 function Course() {
     let { id } = useParams(); 

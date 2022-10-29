@@ -1,4 +1,5 @@
 import { React } from "react";
+import profileLogo from "../assets/images/my-profile.jpg";
 import "../core/styles/AboutMe.css";
 
 function AboutMe() {
@@ -9,7 +10,7 @@ function AboutMe() {
                     <h2>About Me</h2>
                     <span>Get to Know Me Better</span>
                     <div className="about-me-profile-logo-container">
-                        <img src="/images/my-profile.jpg"></img>
+                        <img src={profileLogo}></img>
                     </div>
                     <p>
                         Hi, it's Shamin. I am a Full Stack Developer working for an AI/ML firm. I started my software engineering career with android development when I was in college  then I explored both frontend and backend development just after I landed my first job. I have a good amount of experience working with end to end application development from creating frontend, backend till deploying them on cloud using technologies such as AWS.

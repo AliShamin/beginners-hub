@@ -16,7 +16,7 @@ function ViewCourseContent() {
     return (<>
         <div className="course-content-wraper">
             <div className="course-container">
-                <iframe src={`/coursePdfs/course101.pdf`}></iframe>
+                <iframe src={`/course_pdfs/course101.pdf`}></iframe>
                 <div className="register-course-box">
                     <div className="course-description">
                         <h2>{courseDetails[courseHash].courseTitle}</h2>

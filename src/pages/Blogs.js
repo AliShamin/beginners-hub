@@ -1,7 +1,7 @@
 import React from "react";
-import BlogSearchBar from "../BlogSearchBar";
-import PostsCard from "../PostsCard";
-import "../../core/styles/Blogs.css";
+import BlogSearchBar from "../components/BlogSearchBar";
+import PostsCard from "../components/PostsCard";
+import "../core/styles/Blogs.css";
 
 function Blogs() {
     return (

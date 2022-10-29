@@ -9,7 +9,7 @@ const BlogPost = () => {
   const [isDark, setIsDark] = useState(true)
   const {id} = useParams();
   useEffect(() => {
-    import(`../assets/tutorials/tutorial${id}.md`)
+    import(`/public/blogs/blog${id}.md`)
       .then(res =>
         fetch(res.default)
           .then(response => response.text())

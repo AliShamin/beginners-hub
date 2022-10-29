@@ -1,5 +1,6 @@
 import React from "react";
 import "../core/styles/WhatIOffer.css";
+import logo from "../assets/logo/master-class-logo.png";
 
 function WhatIOffer() {
     return (
@@ -12,7 +13,7 @@ function WhatIOffer() {
                 <div className="whatioffer-box">
                     <div className="whatioffer-cards-item">
                         <div className="whatioffer-card-title">
-                            <img src="/logo/master-class-logo.png" width='80' height='80' />
+                            <img src={logo} width='80' height='80' />
                             <h4>Master Classes</h4>
                         </div>
                         <div>
@@ -21,7 +22,7 @@ function WhatIOffer() {
                     </div>
                     <div className="whatioffer-cards-item">
                         <div className="whatioffer-card-title">
-                            <img src="/logo/master-class-logo.png" width='80' height='80' />
+                            <img src={logo} width='80' height='80' />
                             <h4>Training Sessions</h4>
                         </div>
                         <div>

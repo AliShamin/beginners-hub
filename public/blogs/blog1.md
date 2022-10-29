@@ -1,10 +1,11 @@
 # Build React App using Node, Webpack and Babel
-React is a JavaScript library which helps us to create UI components in a simpler way without worrying about manipulating browser **DOM**.
+React is a JavaScript library which helps us to create UI components in a simpler way without worrying about
+manipulating browser **DOM**.
 <br/><br/>
 ![Sorry, but I tried my best](https://miro.medium.com/max/720/1*MhPvRNsjw50MQ7pU5jFUpw.png)
 <br/><br/>
-Most modern **front end** applications are written in the supersets of JavaScript. In order to run our application, we need to convert these modern **JavaScript** syntax into Vanilla JS before it loads into the browser, here comes the use of Babel.
-<br/><br/>
+Most modern **front end** applications are written in the supersets of JavaScript. In order to run our application, we need to convert these modern **JavaScript** syntax into Vanilla JS before it loads into the browser, here comes the use of Babel.   
+<br/>
 **Babel** is a transpiler which helps us to transpile our next generation JavaScript code into browser compatible version.
 <br/><br/>
 We also need to serve our modules into browser, before we do that we first need to convert them into static assets. Hence we need some sort of module bundler to bundle our code, in order to do that we will use webpack.
@@ -17,39 +18,36 @@ Following are the list of tools we will be using going forward.
 * Webpack 
 * Babel  
 * Editor 
-
+<br/><br/>
 So lets get started by creating our React application from scratch without using the **create-react-app** npx command.
+<br/><br/>
 
 For the sake of simplicity we will use **React CDN**.
 
-> <script 
->    src="https://unpkg.com/react@16/umd/react.development.js"></script>
-> <script 
->   src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
-> </script>
+>&lt;script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+
+>&lt;script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 
 To serve our web application we will use a simple **http server** so lets install that.
 
 >npm install --global http-server 
 
 Let us now create our simple react component.
-
 ## App.jsx 
 <Code language="javascript">
 function App() {
  const title = "React";
- return (<h2>Hello {title} </h2>);
+ return (&lt;h2>Hello {title} &lt;/h2>);
 }
 export default App; 
 </Code>
-<br/>
 To render our App component we will create another file called index.jsx.
 
 ## index.jsx
 
 <Code language="javascript">
 import App from './App.jsx'
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(&lt;App />, document.getElementById("root"));
 </Code>  
 
 You might have noticed that we used import and export which is the JavaScript modules syntax hence we require a module bundler to bundle our code.
@@ -101,15 +99,19 @@ Babel preset package requires one config file created at the root of the project
 
 ## .babelrc
 
-> {
-> "presets": ["@babel/preset-env", "@babel/preset-react"]
-> }
-
+<Code language="javascript">
+{
+ "presets": ["@babel/preset-env", "@babel/preset-react"]
+ }
+</Code>
+ 
 We can now include our webpack command inside scripts section of package.json file.
 
-> "scripts": {
->   "build": "webpack --config webpack.config.js"
-> }
+<Code language="javascript">
+ "scripts": {
+   "build": "webpack --config webpack.config.js"
+ }
+</Code>
 
 After all those imports our package.json file will look like this.
 
@@ -153,7 +155,6 @@ Now lets start our server using.
 Our application is now started at url: **http://localhost:8080**
 <br/><br/>
 ![Sorry, but I tried my best](https://miro.medium.com/max/720/1*mcc2sDImVKPkyswtkWJGmQ.png)
-
 Hurray!! 😄 we have created our first React app from scratch.
-
+<br/><br/>
 Happy Coding!!
