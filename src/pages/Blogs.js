@@ -1,7 +1,7 @@
 import React from "react";
 import { BlogSearchBar } from "../components/BlogSearchBar";
-import { PostsCard } from "../components/PostsCard";
-import {Footer} from "../components/Footer";
+import { BlogList } from "../components/BlogList";
+import { Footer } from "../components/Footer";
 import "../core/styles/Blogs.css";
 
 export default function Blogs() {
@@ -11,9 +11,9 @@ export default function Blogs() {
                 <BlogSearchBar />
             </div>
             <div className="d-flex-justify-center min-h-75">
-                <PostsCard />
+                <BlogList />
             </div>
-            <Footer/>
+            <Footer />
         </>
     );
 }

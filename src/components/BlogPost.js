@@ -2,7 +2,6 @@ import { useState, useEffect } from "react"
 import Markdown from "markdown-to-jsx"
 import {Code} from "./Code";
 import { useParams } from "react-router-dom";
-import "../core/styles/Blogs.css";
 
 export const BlogPost = () => {
   const [postContent, setPostcontent] = useState('')
