@@ -1,10 +1,10 @@
 import React from "react";
 import "../core/styles/ContactInfo.css";
 
-function ContactInfo() {
+export const ContactInfo = () => {
     return (
         <>
-            <section className="contact-container">
+            <section className="contact-container d-flex-center">
                 <div className="contact-box">
                     <section className="contact-query-post-container">
                         <h2>You can submit your queries here</h2>
@@ -32,5 +32,3 @@ function ContactInfo() {
             </section>
         </>);
 }
-
-export default ContactInfo;

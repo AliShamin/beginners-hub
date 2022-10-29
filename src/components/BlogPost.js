@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react"
 import Markdown from "markdown-to-jsx"
-import Code from "./Code";
+import {Code} from "./Code";
 import { useParams } from "react-router-dom";
 import "../core/styles/Blogs.css";
 
-const BlogPost = () => {
+export const BlogPost = () => {
   const [postContent, setPostcontent] = useState('')
   const [isDark, setIsDark] = useState(true)
   const {id} = useParams();
@@ -21,14 +21,6 @@ const BlogPost = () => {
   return (
     <div className="article-wrapper">
       <article>
-        {/* <header>
-          <div className="article__cover">
-            <img
-              src={cover}
-              alt="my-cover"
-            />
-          </div>
-        </header> */}
         <main>
           <Markdown
             options={{
@@ -51,4 +43,3 @@ const BlogPost = () => {
   )
 }
 
-export default BlogPost

@@ -3,7 +3,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 import trainingDetails from "../assets/TrainingDetails.json";
 import "../core/styles/TrainingOffering.css";
 
-function TrainingSection() {
+export const TrainingSection =()=> {
     const navigate = useNavigate();
     const [unhidedCourse, setUnhidedCourse] = useState({});
     const [showNav, setShowNav] = useState(true);
@@ -75,4 +75,3 @@ function TrainingSection() {
     );
 }
 
-export default TrainingSection;

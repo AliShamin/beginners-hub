@@ -1,8 +1,7 @@
 import React from 'react';
-import '../App.css';
 import '../core/styles/HeroSection.css';
 
-function HeroSection() {
+export const HeroSection = ()=>{
   return (
     <div className='hero-container'>
       <h1>Shamin Ali</h1>
@@ -11,4 +10,3 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;

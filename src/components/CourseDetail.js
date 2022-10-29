@@ -1,10 +1,10 @@
 import React from "react";
 import courseDetails from "../assets/CourseDetails.json";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../core/styles/CourseDetail.css";
 const bHUbSession101Url = "https://forms.gle/njuNybEJXFTNmwfe8";
 
-function CourseDetail(props) {
+export const CourseDetail = (props) => {
     let courseHash = (props.id % 10) - 1;
     return (
         <>

@@ -1,16 +1,16 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import courseDetails from "../assets/CourseDetails.json";
-import CardItem from "../components/CardItem";
+import { CardItem } from "../components/CardItem";
 import "../core/styles/Courses.css";
-import Footer from "../components/Footer";
+import { Footer } from "../components/Footer";
 
 
-function Courses() {
+export default function Courses() {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
-    
+    }, [])
+
     const getCards = () => {
         let cardItems = [];
         courseDetails.forEach(element => {
@@ -27,14 +27,13 @@ function Courses() {
 
     return (
         <>
-        <div className="courses-container">
-            <section className="course-container-box">
-            {getCards()}
-            </section>
-        </div>
-        <Footer/>
+            <div className="courses-container">
+                <section className="course-container-box">
+                    {getCards()}
+                </section>
+            </div>
+            <Footer />
         </>)
 }
 
 
-export default Courses;

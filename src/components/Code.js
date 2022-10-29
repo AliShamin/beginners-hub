@@ -7,7 +7,7 @@ import { materialDark, materialLight } from 'react-syntax-highlighter/dist/esm/s
 import { CopyIcon, PasteIcon, SunIcon, MoonIcon } from "../assets/icons"
 import "../core/styles/Code.css";
 
-const Code = ({ children, language, isDark, setIsDark }) => {
+export const Code = ({ children, language, isDark, setIsDark }) => {
   const [isCopied, setIsCopied] = useState(false)
 
   SyntaxHighlighter.registerLanguage('jsx', jsx);
@@ -41,4 +41,3 @@ const Code = ({ children, language, isDark, setIsDark }) => {
   )
 }
 
-export default Code

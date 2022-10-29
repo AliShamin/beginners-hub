@@ -1,7 +1,7 @@
 import React from 'react';
 import "../core/styles/Profile.css";
 
-function Profile() {
+export const Profile =()=> {
     return (
         <section className="profile-container">
             <section className="profile-title-section">
@@ -37,5 +37,3 @@ function Profile() {
         </section>
     );
 }
-
-export default Profile;

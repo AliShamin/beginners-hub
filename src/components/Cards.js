@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import '../core/styles/Cards.css';
-import CardItem from './CardItem';
+import { CardItem } from './CardItem';
 import courseDetails from "../assets/CourseDetails.json";
 
-function Cards() {
+export const Cards = () => {
 
   const [showCardsScroll, setShowCardsScroll] = useState(false);
   const courseLength = courseDetails.length;
@@ -13,14 +13,14 @@ function Cards() {
       setShowCardsScroll(true)
     }
   }, [])
-  
-  
+
+
   const moveCards = (direction) => {
     if (direction === "forward") {
-      document.querySelector(".cards__items").scrollLeft +=350; 
+      document.querySelector(".cards__items").scrollLeft += 350;
     }
     else if (direction === "backward") {
-      document.querySelector(".cards__items").scrollLeft -=350; 
+      document.querySelector(".cards__items").scrollLeft -= 350;
     }
   }
 

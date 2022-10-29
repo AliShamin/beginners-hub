@@ -2,7 +2,7 @@ import React from "react";
 import "../core/styles/WhatIOffer.css";
 import logo from "../assets/logo/master-class-logo.png";
 
-function WhatIOffer() {
+export const WhatIOffer =()=> {
     return (
         <>
             <section className="whatioffer-wrap">
@@ -33,5 +33,3 @@ function WhatIOffer() {
             </section>
         </>);
 }
-
-export default WhatIOffer;

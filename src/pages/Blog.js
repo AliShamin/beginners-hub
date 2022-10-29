@@ -1,13 +1,15 @@
 import React from "react";
-import BlogPost from "../components/BlogPost.js"
+import { BlogPost } from "../components/BlogPost.js"
+import { Footer } from "../components/Footer";
 import "../core/styles/Blogs.css";
-const Blog = () => {
 
-  return (
+export default function Blog() {
+  return (<>
     <div className="blog-post-container">
       <BlogPost />
     </div>
+    <Footer />
+  </>
   )
 }
 
-export default Blog

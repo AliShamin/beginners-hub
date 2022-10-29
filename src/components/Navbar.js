@@ -5,19 +5,19 @@ import { getCourseList } from '../core/services/CourseService';
 
 const STYLES = ["navbar", "navbar position-sticky nav-shadow-and-color", "navbar nav-shadow-and-color position-fixed"];
 
-function Navbar() {
+export const Navbar = () => {
   const location = useLocation();
   const [click, setClick] = useState(false);
   const [navBarStyle, setNavbarStyle] = useState(STYLES[0])
   const [dropDown, setDropdown] = useState(false);
   const closeMobileMenu = () => setClick(false);
   const courseList = getCourseList();
-  const [hideNavBar,setHideNavBar] = useState(false);
+  const [hideNavBar, setHideNavBar] = useState(false);
   const handleClick = () => setClick(!click);
 
   useEffect(() => {
     handleScroll();
-}, [location]);
+  }, [location]);
 
   const handleScroll = () => {
     /**
@@ -130,7 +130,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
-     
+
     </>
   );
 }

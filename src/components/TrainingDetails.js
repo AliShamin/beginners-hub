@@ -2,9 +2,9 @@ import React from "react";
 import { useLocation } from "react-router-dom"
 import trainingDetails from "../assets/TrainingDetails.json";
 
-function TrainingDetails() {
+export const TrainingDetails = () => {
     let { state } = useLocation();
-    const { courseIndex,subCoursesIndex } = state;
+    const { courseIndex, subCoursesIndex } = state;
     console.log("courseIndex", courseIndex);
     return (<>
         <div className="offering-description-box">
@@ -14,4 +14,3 @@ function TrainingDetails() {
     </>);
 }
 
-export default TrainingDetails;

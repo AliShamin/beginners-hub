@@ -1,19 +1,20 @@
 import React from "react";
-import BlogSearchBar from "../components/BlogSearchBar";
-import PostsCard from "../components/PostsCard";
+import { BlogSearchBar } from "../components/BlogSearchBar";
+import { PostsCard } from "../components/PostsCard";
+import {Footer} from "../components/Footer";
 import "../core/styles/Blogs.css";
 
-function Blogs() {
+export default function Blogs() {
     return (
         <>
-            <div className="blog-search-container">
+            <div className="h10 d-flex-align-center">
                 <BlogSearchBar />
             </div>
-            <div className="blog-items-container">
-                <PostsCard/>
+            <div className="d-flex-justify-center min-h-75">
+                <PostsCard />
             </div>
+            <Footer/>
         </>
     );
 }
 
-export default Blogs;

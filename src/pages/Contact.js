@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
-import Footer from "../components/Footer";
-import ContactInfo from '../components/ContactInfo';
+import {Footer} from "../components/Footer";
+import {ContactInfo} from '../components/ContactInfo';
 
-function Contact() {
+export default function Contact() {
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [])
@@ -13,4 +13,3 @@ function Contact() {
     </>);
 }
 
-export default Contact;
