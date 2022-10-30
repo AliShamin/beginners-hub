@@ -5,7 +5,7 @@ import "../core/styles/Blogs.css";
 
 export default function Blog() {
   return (<>
-    <div className="blog-post-container">
+    <div className="blog-post-container min-h-75">
       <BlogPost />
     </div>
     <Footer />
