@@ -5,7 +5,7 @@ import "../core/styles/CourseDetail.css";
 const bHUbSession101Url = "https://forms.gle/njuNybEJXFTNmwfe8";
 
 export const CourseDetail = (props) => {
-    let courseHash = (props.id % 10) - 1;
+    const courseHash = (props.id % 10) - 1;
     return (
         <>
             <section className="course-detail-container">

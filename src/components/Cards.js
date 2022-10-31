@@ -25,7 +25,7 @@ export const Cards = () => {
   }
 
   const getCardItems = (startOfset, endOfset) => {
-    let cardItems = [];
+    const cardItems = [];
     for (let x = startOfset; x < endOfset; x++) {
       cardItems.push(<CardItem
         src={courseDetails[x].course_img_src}
@@ -60,4 +60,3 @@ export const Cards = () => {
   );
 }
 
-export default Cards;

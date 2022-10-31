@@ -7,10 +7,10 @@ export const TrainingSection =()=> {
     const navigate = useNavigate();
     const [unhidedCourse, setUnhidedCourse] = useState({});
     const [showNav, setShowNav] = useState(true);
-    let routeTo = (pathName, courseIndex, subCoursesIndex) => {
+    const routeTo = (pathName, courseIndex, subCoursesIndex) => {
         navigate(pathName, { state: { courseIndex, subCoursesIndex } })
     }
-    let unhideSubCourse = (i) => {
+    const unhideSubCourse = (i) => {
         if (unhidedCourse[i] != null && unhidedCourse[i] == true) {
             unhidedCourse[i] = false;
         } else {
@@ -19,11 +19,11 @@ export const TrainingSection =()=> {
         setUnhidedCourse({ ...unhidedCourse });
     }
 
-    let hideNavBar = () => {
+    const hideNavBar = () => {
         setShowNav(false);
     }
 
-    let unHideNavBar = () => {
+    const unHideNavBar = () => {
         setShowNav(true);
     }
 

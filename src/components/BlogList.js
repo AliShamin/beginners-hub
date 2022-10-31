@@ -3,7 +3,7 @@ import blogDetails from "../assets/BlogDetails.json";
 import {BlogCardItem} from "./BlogCardItem";
 
 export const BlogList = () => {
-    let blogs = [];
+    const blogs = [];
     blogDetails.map(e => {
         blogs.push(<BlogCardItem blogDetail={e}/>)
     })

@@ -6,8 +6,8 @@ import Footer from "./Footer";
 
 const bHUbSession101Url = "https://forms.gle/njuNybEJXFTNmwfe8";
 export const ViewCourseContent = () => {
-    let { id } = useParams();
-    let courseHash = (id % 10) - 1;
+    const { id } = useParams();
+    const courseHash = (id % 10) - 1;
 
     useEffect(() => {
         window.scrollTo(0, 0)
