@@ -1,6 +1,6 @@
 import './core/styles/App.css';
 import './core/styles/Common.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { TrainingDetails } from './components/TrainingDetails';
 import { SocialMediaWidget } from './components/SocialMediaWidget';
 import { ViewCourseContent } from './components/ViewCourseContent';
