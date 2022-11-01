@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 export const BlogCardItem = (props) => {
-    const path = `/blog/${props.blogDetail.postId}`;
+    const path = `/blog/${props.blogDetail.path}`;
     return (
         <>
             <></>

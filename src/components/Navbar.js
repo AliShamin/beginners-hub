@@ -3,7 +3,11 @@ import { Link, useLocation } from 'react-router-dom';
 import '../core/styles/Navbar.css';
 import { getCourseList } from '../core/services/CourseService';
 
-const STYLES = ["navbar", "navbar position-sticky nav-shadow-and-color", "navbar nav-shadow-and-color position-fixed"];
+const STYLES = [
+  "navbar",
+  "navbar position-sticky nav-shadow-and-color",
+  "navbar nav-shadow-and-color position-fixed",
+];
 
 export const Navbar = () => {
   const location = useLocation();

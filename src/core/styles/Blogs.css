@@ -8,12 +8,17 @@
     text-align: left;
 }
 
+.article-wrapper img{
+  width: 100%;
+}
+
 .article-wrapper blockquote {
   background: #f4f7f5;
   border-left: 10px solid var(--primary-color);
   margin: 1.5em 0px;
   padding: 10px;
   quotes: "\201C""\201D""\2018""\2019";
+  word-wrap: break-word;
 }
 
 .article__cover img {
@@ -69,4 +74,29 @@ justify-content: center;
 height: 25%;
 }
 
+/* Comment box specific css */
+.segment {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 
+.segment.small {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.segment.large {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.comments>h2{
+  margin: 0.5rem 2rem ;
+  color: #4b5056;
+}
+
+@media screen and (max-width:960px){
+  .blog-post-container{
+    width: 90%;
+  }
+}

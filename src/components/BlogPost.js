@@ -1,14 +1,15 @@
-import { useState, useEffect } from "react"
+import React, { useState, useEffect } from "react"
 import Markdown from "markdown-to-jsx"
-import {Code} from "./Code";
+import { Code } from "./Code";
 import { useParams } from "react-router-dom";
 
 export const BlogPost = () => {
   const [postContent, setPostcontent] = useState('')
   const [isDark, setIsDark] = useState(true)
-  const {id} = useParams();
+  const { id } = useParams();
+
   useEffect(() => {
-    import(`/public/blogs/blog${id}.md`)
+    import(`/public/blogs/${id}.md`)
       .then(res =>
         fetch(res.default)
           .then(response => response.text())
