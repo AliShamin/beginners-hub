@@ -27,7 +27,7 @@ export const Navbar = () => {
     /**
      * We want navbar css to position sticky for all the route except for home page
      */
-    if (window.location.hash == '#/') {
+    if (window.location.hash == '' || window.location.hash == '#/') {
       if (window.scrollY > 600) {
         setNavbarStyle(STYLES[2]);
       } else {
