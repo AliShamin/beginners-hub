@@ -1,0 +1,51 @@
+.subscribe-form-container{
+    display: flex;
+    height: 70vh;
+}
+
+.subscribe-form-left-section{
+    background-color: antiquewhite;
+    width: 30%;
+    height: 88%;
+}
+.custom-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    height: 84%;
+    background-color: #F4F7F5;
+    padding: 2rem;
+    border-radius: 6px;
+}
+
+.custom-form-container input{
+    font-size: 1rem;
+    padding: .4rem 1rem;
+    margin: .4rem 0;
+    border: none;
+    color: rgb(85, 85, 85);
+}
+
+.custom-form-container h1{
+    font-size: 2rem;
+}
+
+.custom-form-container input:focus{
+    border: 1px solid lightseagreen;
+}
+
+.custom-form-container button{
+    font-size: 1rem;
+    padding: .4rem;
+    width: 6rem;
+    background-color: var(--purple);
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+

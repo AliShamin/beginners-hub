@@ -1,5 +1,6 @@
 import React from "react";
 import "../core/styles/ContactInfo.css";
+import { SubscribeForm } from "./SubscribeForm";
 
 export const ContactInfo = () => {
     return (

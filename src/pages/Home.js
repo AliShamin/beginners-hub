@@ -4,6 +4,7 @@ import { HeroSection } from '../components/HeroSection';
 import { Footer } from '../components/Footer';
 import { Profile } from '../components/Profile';
 import { WhatIOffer } from '../components/WhatIOffer';
+import { SubscribeForm } from '../components/SubscribeForm';
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Profile />
       <WhatIOffer />
       <Cards />
+      <SubscribeForm/>
       <Footer />
     </>
   );
