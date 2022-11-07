@@ -7,7 +7,9 @@ export const SubscribeForm = () => {
     return (
         <section className="subscribe-form-container">
             <div className='container'>
-                {/* <div className="subscribe-form-left-section"></div> */}
+                <div className="subscribe-form-left-section">
+                <h1>Subscribe to BeginnersHub</h1>
+                </div>
                 <MailchimpSubscribe
                     url={url}
                     render={({ subscribe, status, message }) => (
@@ -41,7 +43,6 @@ const CustomForm = ({ status, message, onValidated }) => {
 
     return (
         <div className="custom-form-container">
-            <h1>Subscribe</h1>
             {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
             {status === "error" && (
                 <div
@@ -77,7 +78,7 @@ const CustomForm = ({ status, message, onValidated }) => {
                 />
             </div>
             <button onClick={submit}>
-                Submit
+                Subscribe
             </button>
         </div>
     );
