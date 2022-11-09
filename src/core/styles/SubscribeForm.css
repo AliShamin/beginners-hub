@@ -17,10 +17,13 @@
     flex-direction: column;
     justify-content: space-around;
     width: 30%;
-    height: 90%;
-    /* background-color: #F4F7F5; */
+    height: 95%;
     padding: 2rem;
     border-radius: 6px;
+}
+
+.custom-form-response-container{
+    height: 2rem;
 }
 
 .custom-form-container input{
@@ -48,6 +51,7 @@
     margin-top: 1rem;
     cursor: pointer;
     border-radius: 6px;
+    width:100%;
 }
 
 

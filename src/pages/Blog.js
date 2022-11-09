@@ -14,6 +14,10 @@ export default function Blog() {
     appendComments(commentBox)
   }, [commentBox])
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (<>
     <div className="blog-post-container min-h-75">
       <BlogPost />

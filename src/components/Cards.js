@@ -42,19 +42,19 @@ export const Cards = () => {
     <div className='cards'>
       <h1>Check out these courses!</h1>
       <div className='cards__container'>
-        {showCardsScroll && <span className="sliding_control" onClick={() => { moveCards("backward") }}>
+        {/* {showCardsScroll && <span className="sliding_control" onClick={() => { moveCards("backward") }}>
           <i className="fa fa-solid fa-backward" ></i>
         </span>
-        }
+        } */}
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             {getCardItems(0, courseLength)}
           </ul>
         </div>
-        {showCardsScroll && <span className="sliding_control" onClick={() => { moveCards("forward") }}>
+        {/* {showCardsScroll && <span className="sliding_control" onClick={() => { moveCards("forward") }}>
           <i className="fa fa-solid fa-forward" ></i>
         </span>
-        }
+        } */}
       </div>
     </div>
   );
