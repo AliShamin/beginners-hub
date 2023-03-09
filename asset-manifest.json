@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/beginners-hub/static/css/main.0b5df270.css",
+    "main.js": "/beginners-hub/static/js/main.3bd94d7d.js",
+    "static/js/162.55461ec5.chunk.js": "/beginners-hub/static/js/162.55461ec5.chunk.js",
+    "static/js/805.2d880e83.chunk.js": "/beginners-hub/static/js/805.2d880e83.chunk.js",
+    "static/js/832.fb9f3f63.chunk.js": "/beginners-hub/static/js/832.fb9f3f63.chunk.js",
+    "static/media/my-profile.jpg": "/beginners-hub/static/media/my-profile.451052e88f140a20f1ff.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/beginners-hub/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/beginners-hub/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/beginners-hub/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/beginners-hub/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/beginners-hub/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/img-16.jpg": "/beginners-hub/static/media/img-16.b1d598e00634c5980d6d.jpg",
+    "static/media/img-23.jpg": "/beginners-hub/static/media/img-23.23326e4cc8811c6f2f0c.jpg",
+    "static/media/build-react-app-from-scratch.md": "/beginners-hub/static/media/build-react-app-from-scratch.5c02fb448ccbde2d0b8f.md",
+    "index.html": "/beginners-hub/index.html",
+    "static/media/microservice-based-architecture.md": "/beginners-hub/static/media/microservice-based-architecture.e66bfbdf25fe8b49bb66.md",
+    "static/media/cloud-technologies-importance.md": "/beginners-hub/static/media/cloud-technologies-importance.df0b950eba8808e038ff.md",
+    "main.0b5df270.css.map": "/beginners-hub/static/css/main.0b5df270.css.map",
+    "main.3bd94d7d.js.map": "/beginners-hub/static/js/main.3bd94d7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b5df270.css",
+    "static/js/main.3bd94d7d.js"
+  ]
+}
