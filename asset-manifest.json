@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beginners-hub/static/css/main.1385e60b.css",
-    "main.js": "/beginners-hub/static/js/main.143a5f25.js",
+    "main.js": "/beginners-hub/static/js/main.41d560cb.js",
     "static/js/162.bb5ca12a.chunk.js": "/beginners-hub/static/js/162.bb5ca12a.chunk.js",
     "static/js/805.cc91b7c3.chunk.js": "/beginners-hub/static/js/805.cc91b7c3.chunk.js",
     "static/js/832.c15ab838.chunk.js": "/beginners-hub/static/js/832.c15ab838.chunk.js",
@@ -18,10 +18,10 @@
     "static/media/microservice-based-architecture.md": "/beginners-hub/static/media/microservice-based-architecture.c6ce55b95940594b1325.md",
     "static/media/cloud-technologies-importance.md": "/beginners-hub/static/media/cloud-technologies-importance.2fa6bb9258c92809a6ce.md",
     "main.1385e60b.css.map": "/beginners-hub/static/css/main.1385e60b.css.map",
-    "main.143a5f25.js.map": "/beginners-hub/static/js/main.143a5f25.js.map"
+    "main.41d560cb.js.map": "/beginners-hub/static/js/main.41d560cb.js.map"
   },
   "entrypoints": [
     "static/css/main.1385e60b.css",
-    "static/js/main.143a5f25.js"
+    "static/js/main.41d560cb.js"
   ]
 }
