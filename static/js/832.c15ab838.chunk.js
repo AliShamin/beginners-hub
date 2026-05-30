@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbeginners_hub=self.webpackChunkbeginners_hub||[]).push([[832],{4832:function(e,c,s){e.exports=s.p+"static/media/microservice-based-architecture.c6ce55b95940594b1325.md"}}]);

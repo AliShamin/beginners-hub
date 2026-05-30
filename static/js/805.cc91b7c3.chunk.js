@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbeginners_hub=self.webpackChunkbeginners_hub||[]).push([[805],{6805:function(e,c,n){e.exports=n.p+"static/media/cloud-technologies-importance.2fa6bb9258c92809a6ce.md"}}]);
