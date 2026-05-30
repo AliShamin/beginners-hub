@@ -9,7 +9,7 @@ export const SubscribeForm = () => {
         <section className="subscribe-form-container">
             <div className='container'>
                 <div className="subscribe-form-left-section">
-                    <h1>Subscribe to BeginnersHub</h1>
+                    <h1>Subscribe to SummerCamp</h1>
                 </div>
                 <MailchimpSubscribe
                     url={url}
