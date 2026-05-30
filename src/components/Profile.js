@@ -8,7 +8,7 @@ export const Profile =()=> {
                 <p>Goal</p> 
             </section>
             <blockquote className='headline-section'>
-                <p>Beginners Hub aims to support freshers
+                <p>SummerCamp aims to support freshers
                     transitioning from various background to the world of Internet and Computers
                     and help them build their portfolio to enter in the IT world.
                 </p>
@@ -19,7 +19,7 @@ export const Profile =()=> {
                     <div className="profile-logo-description">
                         <h3>Shamin Ali</h3>
                         <p>Full Stack Developer</p>
-                        <p>Instructor @Beginners Hub</p>
+                        <p>Instructor @SummerCamp</p>
                         <p>AWS Certified Developer</p>
                     </div>
                 </div>

@@ -59,7 +59,7 @@ export const Navbar = () => {
       <nav className={navBarStyle}>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            beg<span>;</span>nnershub
+            SummerCamp<span>;</span>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fa fas fa-times' : 'fa fas fa-bars'} />

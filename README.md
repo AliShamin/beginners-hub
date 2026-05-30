@@ -1,1 +1,1 @@
-Getting started with Beginners Hub
+Getting started with SummerCamp
